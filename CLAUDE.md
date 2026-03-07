@@ -21,3 +21,8 @@ All skills prefixed `rwrw01-` for easy identification.
 - Report content in Dutch
 - Use `$ARGUMENTS` for project-specific parameters
 - Naming: `rwrw01-{function}` (kebab-case)
+
+## Git & Licensing (Non-Negotiable)
+- **License**: All repositories use EUPL-1.2. Include a `LICENSE` file in every new repo.
+- **No AI co-author**: NEVER add `Co-Authored-By` lines for Claude, Anthropic, or any AI model in commit messages.
+- **Dependency license table**: The README of every project MUST contain a table listing all used software/dependencies with their license. Update this table when dependencies change.
