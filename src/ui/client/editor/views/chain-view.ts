@@ -14,6 +14,20 @@ interface CollapsibleNode extends d3.HierarchyPointNode<ChainNode> {
   _children?: CollapsibleNode[];
 }
 
+interface ChainPreset { id: string; label: string; types?: string[]; relations?: string[] }
+const CHAIN_PRESETS: ChainPreset[] = [
+  { id: 'all', label: 'Alles' },
+  { id: 'infra', label: 'Infrastructuur',
+    types: ['Node', 'Database', 'Netwerk', 'Netwerk Device', 'Apparaat', 'Locatie', 'Package'],
+    relations: ['composition', 'realization', 'association'] },
+  { id: 'data', label: 'Datastromen',
+    types: ['Database', 'Gegevensobject', 'Applicatie-interface', 'Applicatieservice'],
+    relations: ['flow', 'access'] },
+  { id: 'process', label: 'Processen',
+    types: ['Bedrijfsproces', 'Bedrijfsfunctie', 'Actor', 'Bedrijfsobject'],
+    relations: ['usedby', 'aggregation', 'assignment'] },
+];
+
 const DX = 32, DY = 240, DURATION = 250;
 const FONT = '-apple-system, Segoe UI, system-ui, sans-serif';
 
@@ -77,30 +91,19 @@ function renderChainTree(
   function update(source: CollapsibleNode): void {
     layout(root);
     onCountChange(countNodes(root));
-
     const nodes = root.descendants() as CollapsibleNode[];
     const links = root.links();
-
-    // Links
     const link = linkGroup.selectAll<SVGPathElement, d3.HierarchyPointLink<ChainNode>>('path')
       .data(links, (d) => (d.target as CollapsibleNode).data.id);
-
     const linkEnter = link.enter().append('path')
       .attr('stroke-opacity', 0)
       .attr('d', () => linkPath({ y: source.y0 ?? 0, x: source.x0 ?? 0 }));
-
-    link.merge(linkEnter)
-      .transition().duration(DURATION)
+    link.merge(linkEnter).transition().duration(DURATION)
       .attr('stroke-opacity', 0.5)
       .attr('d', (d) => curvePath(d.source as CollapsibleNode, d.target as CollapsibleNode));
-
-    link.exit()
-      .transition().duration(DURATION)
+    link.exit().transition().duration(DURATION)
       .attr('stroke-opacity', 0)
-      .attr('d', () => linkPath({ y: source.y ?? 0, x: source.x ?? 0 }))
-      .remove();
-
-    // Nodes
+      .attr('d', () => linkPath({ y: source.y ?? 0, x: source.x ?? 0 })).remove();
     const node = nodeGroup.selectAll<SVGGElement, CollapsibleNode>('g.chain-node')
       .data(nodes, (d) => d.data.id);
 
@@ -156,22 +159,11 @@ function renderChainTree(
       }
     });
 
-    // Cursor
     nodeEnter.attr('cursor', (d) => d.data.type === '_relation' ? 'default' : 'pointer');
-
-    // Click: toggle or lazy load
-    nodeEnter.on('click', (_ev, d) => {
-      if (d.data.type === '_relation') return;
-      handleClick(d);
-    });
-
-    // Double-click: navigate
+    nodeEnter.on('click', (_ev, d) => { if (d.data.type !== '_relation') handleClick(d); });
     nodeEnter.on('dblclick', (_ev, d) => {
-      if (d.data.type === '_relation') return;
-      navigateToObject(d.data.id, d.data.title, d.data.type);
+      if (d.data.type !== '_relation') navigateToObject(d.data.id, d.data.title, d.data.type);
     });
-
-    // Hover: highlight path to root
     nodeEnter.on('mouseenter', function (_ev, d) {
       if (d.data.type === '_relation') return;
       const anc = ancestors(d);
@@ -183,8 +175,7 @@ function renderChainTree(
 
     nodeEnter.on('mouseleave', () => {
       nodeGroup.selectAll('g.chain-node').attr('opacity', 1);
-      linkGroup.selectAll('path').attr('stroke-opacity', 0.5);
-    });
+      linkGroup.selectAll('path').attr('stroke-opacity', 0.5); });
 
     // Merge + transition
     const nodeUpdate = node.merge(nodeEnter);
@@ -272,27 +263,35 @@ export function ChainView({ objectId, title }: { objectId: string; title: string
   const containerRef = useRef<HTMLDivElement>(null);
   const [loading, setLoading] = useState(true);
   const [nodeCount, setNodeCount] = useState(0);
+  const [activePreset, setActivePreset] = useState('all');
 
   useEffect(() => {
     if (!containerRef.current) return;
     setLoading(true);
+    const preset = CHAIN_PRESETS.find(p => p.id === activePreset) ?? CHAIN_PRESETS[0];
 
-    getGraph(objectId, 1).then((data) => {
+    getGraph(objectId, 1, preset.types).then((data) => {
       if (!containerRef.current) return;
-      const tree = buildChainTree(data.nodes, data.edges, objectId);
+      const edges = preset.relations ? data.edges.filter(e => preset.relations!.includes(e.type)) : data.edges;
+      const tree = buildChainTree(data.nodes, edges, objectId);
       renderChainTree(containerRef.current, tree, setNodeCount);
       setLoading(false);
     });
-  }, [objectId]);
+  }, [objectId, activePreset]);
 
   return html`
     <div class="chain-view-container">
       ${loading && html`<div class="view-loading">Laden...</div>`}
+      <div class="chain-presets" style="display:flex;gap:4px;padding:4px 8px">
+        ${CHAIN_PRESETS.map(p => html`
+          <button class="graph-preset-btn ${activePreset === p.id ? 'active' : ''}"
+            style="font-size:11px;padding:2px 8px;border:1px solid #3a3d4a;background:${activePreset === p.id ? '#4f8ff7' : '#1e2128'};color:#e1e4ed;border-radius:4px;cursor:pointer"
+            onClick=${() => setActivePreset(p.id)}>${p.label}</button>
+        `)}
+      </div>
       <div ref=${containerRef} class="chain-tree-svg" style="width:100%;height:100%;min-height:400px" />
       <div class="graph-info" style="padding:4px 8px;display:flex;justify-content:space-between">
-        <span style="color:#8b8fa3;font-size:11px">
-          klik om uit te vouwen, dubbelklik om te navigeren
-        </span>
+        <span style="color:#8b8fa3;font-size:11px">klik om uit te vouwen, dubbelklik om te navigeren</span>
         ${nodeCount > 0 && html`<span>${nodeCount} objecten</span>`}
       </div>
     </div>
