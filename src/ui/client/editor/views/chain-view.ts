@@ -55,6 +55,7 @@ function renderChainTree(
   container: HTMLElement,
   rootData: ChainNode,
   onCountChange: (n: number) => void,
+  activePreset: ChainPreset,
 ): void {
   container.innerHTML = '';
   const svgW = container.clientWidth || 900;
@@ -168,24 +169,15 @@ function renderChainTree(
     });
 
     nodeEnter.attr('cursor', (d) => d.data.type === '_overflow' ? 'default' : 'pointer');
-    nodeEnter.on('click', (_ev, d) => { if (d.data.type !== '_relation') handleClick(d); });
-    nodeEnter.on('dblclick', (_ev, d) => {
-      if (d.data.type !== '_relation') navigateToObject(d.data.id, d.data.title, d.data.type);
-    });
-    nodeEnter.on('mouseenter', function (_ev, d) {
+    nodeEnter.on('click', (_ev, d) => {
       if (d.data.type === '_overflow') return;
-      // Relation groups toggle expand/collapse directly
-      if (d.data.type === '_relation') { handleClick(d); return; }
-      const anc = ancestors(d);
-      nodeGroup.selectAll<SVGGElement, CollapsibleNode>('g.chain-node')
-        .attr('opacity', (n) => anc.has(n) ? 1 : 0.25);
-      linkGroup.selectAll<SVGPathElement, d3.HierarchyPointLink<ChainNode>>('path')
-        .attr('stroke-opacity', (l) => anc.has(l.target as CollapsibleNode) ? 0.9 : 0.1);
+      handleClick(d);
     });
-
-    nodeEnter.on('mouseleave', () => {
-      nodeGroup.selectAll('g.chain-node').attr('opacity', 1);
-      linkGroup.selectAll('path').attr('stroke-opacity', 0.5); });
+    nodeEnter.on('dblclick', (_ev, d) => {
+      if (d.data.type !== '_relation' && d.data.type !== '_overflow') {
+        navigateToObject(d.data.id, d.data.title, d.data.type);
+      }
+    });
 
     // Merge + transition
     const nodeUpdate = node.merge(nodeEnter);
@@ -219,10 +211,13 @@ function renderChainTree(
       return;
     }
 
-    // Lazy load
+    // Lazy load with active preset filter
     if (!d.data.loaded && d.data.expandable) {
-      const graphData = await getGraph(d.data.id, 1);
-      const subtree = buildChainTree(graphData.nodes, graphData.edges, d.data.id);
+      const graphData = await getGraph(d.data.id, 1, activePreset.types);
+      const edges = activePreset.relations
+        ? graphData.edges.filter(e => activePreset.relations!.includes(e.type))
+        : graphData.edges;
+      const subtree = buildChainTree(graphData.nodes, edges, d.data.id);
       d.data.loaded = true;
       d.data.children = subtree.children;
 
@@ -284,7 +279,7 @@ export function ChainView({ objectId, title }: { objectId: string; title: string
       if (!containerRef.current) return;
       const edges = preset.relations ? data.edges.filter(e => preset.relations!.includes(e.type)) : data.edges;
       const tree = buildChainTree(data.nodes, edges, objectId);
-      renderChainTree(containerRef.current, tree, setNodeCount);
+      renderChainTree(containerRef.current, tree, setNodeCount, preset);
       setLoading(false);
     });
   }, [objectId, activePreset]);
