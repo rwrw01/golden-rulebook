@@ -61,13 +61,14 @@ function renderChainTree(
   const svgH = Math.max(450, container.clientHeight || 550);
 
   const root = d3.hierarchy(rootData) as CollapsibleNode;
-  root.x0 = svgH / 2;
+  root.x0 = 0;
   root.y0 = 0;
 
-  // Initial state: root expanded, relation groups expanded, deeper collapsed
+  // Initial state: root expanded showing relation group labels, groups collapsed
+  // Relation groups (depth 1, type _relation) have children but start collapsed
   root.each((d: d3.HierarchyNode<ChainNode>) => {
     const cn = d as CollapsibleNode;
-    if (d.depth >= 2 && d.children) collapse(cn);
+    if (d.data.type === '_relation' && d.children) collapse(cn);
   });
 
   const layout = d3.tree<ChainNode>().nodeSize([DX, DY]);
@@ -86,6 +87,13 @@ function renderChainTree(
   const linkGroup = g.append('g').attr('fill', 'none').attr('stroke', '#3a4a5a').attr('stroke-width', 1.5);
   const nodeGroup = g.append('g');
 
+  // Do initial layout to compute positions before first render
+  layout(root);
+  root.each((d: d3.HierarchyPointNode<ChainNode>) => {
+    const cn = d as CollapsibleNode;
+    cn.x0 = d.x;
+    cn.y0 = d.y;
+  });
   update(root);
 
   function update(source: CollapsibleNode): void {
@@ -115,7 +123,7 @@ function renderChainTree(
     // Draw node visuals on enter
     nodeEnter.each(function (d) {
       const el = d3.select(this);
-      const isRel = d.data.type === '_relation';
+      const isRel = d.data.type === '_relation' || d.data.type === '_overflow';
       const isRoot = d.depth === 0;
 
       if (isRel) {
@@ -159,13 +167,15 @@ function renderChainTree(
       }
     });
 
-    nodeEnter.attr('cursor', (d) => d.data.type === '_relation' ? 'default' : 'pointer');
+    nodeEnter.attr('cursor', (d) => d.data.type === '_overflow' ? 'default' : 'pointer');
     nodeEnter.on('click', (_ev, d) => { if (d.data.type !== '_relation') handleClick(d); });
     nodeEnter.on('dblclick', (_ev, d) => {
       if (d.data.type !== '_relation') navigateToObject(d.data.id, d.data.title, d.data.type);
     });
     nodeEnter.on('mouseenter', function (_ev, d) {
-      if (d.data.type === '_relation') return;
+      if (d.data.type === '_overflow') return;
+      // Relation groups toggle expand/collapse directly
+      if (d.data.type === '_relation') { handleClick(d); return; }
       const anc = ancestors(d);
       nodeGroup.selectAll<SVGGElement, CollapsibleNode>('g.chain-node')
         .attr('opacity', (n) => anc.has(n) ? 1 : 0.25);

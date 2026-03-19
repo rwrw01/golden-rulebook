@@ -13,6 +13,8 @@ export interface ChainNode {
 interface GNode { id: string; title: string; type: string }
 interface GEdge { source: string; target: string; label: string; type: string }
 
+const MAX_CHILDREN_PER_GROUP = 15;
+
 export function buildChainTree(
   nodes: GNode[],
   edges: GEdge[],
@@ -35,21 +37,42 @@ export function buildChainTree(
   // Sort groups: most children first
   const sorted = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
 
-  const children: ChainNode[] = sorted.map(([relType, groupNodes]) => ({
-    id: `_rel_${rootId}_${relType}`,
-    title: RELATION_LABELS[relType] ?? relType,
-    type: '_relation',
-    relationType: relType,
-    expandable: false,
-    loaded: true,
-    children: groupNodes.map(n => ({
+  const children: ChainNode[] = sorted.map(([relType, groupNodes]) => {
+    const capped = groupNodes.length > MAX_CHILDREN_PER_GROUP;
+    const visible = capped ? groupNodes.slice(0, MAX_CHILDREN_PER_GROUP) : groupNodes;
+    const remaining = groupNodes.length - visible.length;
+
+    const kids: ChainNode[] = visible.map(n => ({
       id: n.id,
       title: n.title,
       type: n.type,
       expandable: true,
       loaded: false,
-    })),
-  }));
+    }));
+
+    if (capped) {
+      kids.push({
+        id: `_more_${rootId}_${relType}`,
+        title: `... en nog ${remaining} meer`,
+        type: '_overflow',
+        expandable: false,
+        loaded: true,
+      });
+    }
+
+    const label = RELATION_LABELS[relType] ?? relType;
+    const countLabel = `${label} (${groupNodes.length})`;
+
+    return {
+      id: `_rel_${rootId}_${relType}`,
+      title: countLabel,
+      type: '_relation',
+      relationType: relType,
+      expandable: false,
+      loaded: true,
+      children: kids,
+    };
+  });
 
   return {
     id: rootId,
