@@ -23,21 +23,22 @@ export function buildChainTree(
   const nodeMap = new Map(nodes.map(n => [n.id, n]));
   const rootNode = nodeMap.get(rootId);
 
-  // Group edges by relation type, collecting the "other" node
-  const groups = new Map<string, GNode[]>();
+  // Group edges by relation type, collecting unique "other" nodes
+  const groups = new Map<string, Map<string, GNode>>();
   for (const e of edges) {
     const otherId = e.source === rootId ? e.target : e.source;
     if (otherId === rootId) continue;
     const other = nodeMap.get(otherId);
     if (!other) continue;
-    if (!groups.has(e.type)) groups.set(e.type, []);
-    groups.get(e.type)!.push(other);
+    if (!groups.has(e.type)) groups.set(e.type, new Map());
+    groups.get(e.type)!.set(otherId, other);
   }
 
   // Sort groups: most children first
-  const sorted = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
+  const sorted = [...groups.entries()].sort((a, b) => b[1].size - a[1].size);
 
-  const children: ChainNode[] = sorted.map(([relType, groupNodes]) => {
+  const children: ChainNode[] = sorted.map(([relType, nodeMap2]) => {
+    const groupNodes = [...nodeMap2.values()];
     const capped = groupNodes.length > MAX_CHILDREN_PER_GROUP;
     const visible = capped ? groupNodes.slice(0, MAX_CHILDREN_PER_GROUP) : groupNodes;
     const remaining = groupNodes.length - visible.length;
