@@ -123,7 +123,7 @@ export function GraphView({ objectId, title }: { objectId: string; title: string
   const [loading, setLoading] = useState(true);
   const [nodeCount, setNodeCount] = useState(0);
   const [activePreset, setActivePreset] = useState('overview');
-  const [layoutType, setLayoutType] = useState<LayoutType>('tidytree');
+  const [layoutType, setLayoutType] = useState<LayoutType>('chain');
   const isTidyTree = layoutType === 'tidytree';
   const isChain = layoutType === 'chain';
   const skipCytoscape = isTidyTree || isChain;
