@@ -1,0 +1,37 @@
+/** WCAG AA contrast-safe colors: darker backgrounds with white text */
+export const COLORS: Record<string, string> = {
+  'Applicatie':            '#2b7ab5',
+  'Applicatie-interface':  '#2b7ab5',
+  'Applicatieservice':     '#3a8bc4',
+  'Bedrijfsproces':        '#b8860b',
+  'Bedrijfsfunctie':       '#b8860b',
+  'Actor':                 '#c49a1a',
+  'Bedrijfsservice':       '#b8860b',
+  'Bedrijfsobject':        '#a07808',
+  'Node':                  '#2a8a7a',
+  'Netwerk':               '#2a8a7a',
+  'Netwerk Device':        '#2a8a7a',
+  'Apparaat':              '#2a8a7a',
+  'Database':              '#1d7a6a',
+  'Technologie-interface': '#368f80',
+  'Technologieservice':    '#368f80',
+  'Locatie':               '#c4453a',
+  'Package':               '#5a8c2a',
+  'Gegevensobject':        '#c47a20',
+  'Referentiecomponent':   '#6b5b95',
+  'Selectielijst':         '#708090',
+  'Domein':                '#556b7a',
+};
+
+export const RELATION_LABELS: Record<string, string> = {
+  usedby: 'Gebruikt door',
+  flow: 'Gegevensstromen',
+  realization: 'Realisatie',
+  access: 'Benadert',
+  association: 'Associaties',
+  assignment: 'Toegewezen aan',
+  composition: 'Onderdeel van',
+  aggregation: 'Groepeert',
+  specialization: 'Specialisatie',
+  serving: 'Bedient',
+};
