@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const Database = require\\(''better-sqlite3''\\); const db = new Database\\(''c:/dev/observer/data/observer.db'', {readonly:true}\\); const rows = db.prepare\\(''SELECT DISTINCT path FROM requests WHERE session_id = 7 ORDER BY path''\\).all\\(\\); for \\(const r of rows\\) console.log\\(r.path\\); db.close\\(\\);\")",
+      "Bash(npx tsx src/explore-one.ts)",
+      "WebFetch(domain:support.valueblue.nl)",
+      "WebFetch(domain:public-api.us.bluedolphin.app)",
+      "Bash(npx tsx src/explore-relations.ts)",
+      "Bash(npx tsx -e \":*)",
+      "Bash(npx tsx src/_inspect-api.ts)",
+      "WebFetch(domain:www.gemeentelijkgegevensmodel.nl)",
+      "WebFetch(domain:github.com)",
+      "Bash(mkdir -p data)",
+      "Bash(npx tsx src/data/sync-poc.ts)"
+    ]
+  }
+}

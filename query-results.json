@@ -1,0 +1,430 @@
+{
+  "query1_objects_per_type": [
+    {
+      "name": "Node",
+      "cnt": 310
+    },
+    {
+      "name": "Database",
+      "cnt": 175
+    },
+    {
+      "name": "Netwerk",
+      "cnt": 103
+    },
+    {
+      "name": "Netwerk Device",
+      "cnt": 89
+    },
+    {
+      "name": "Apparaat",
+      "cnt": 78
+    },
+    {
+      "name": "Locatie",
+      "cnt": 40
+    }
+  ],
+  "query2_composition_relationships": [
+    {
+      "source_type": "Netwerk Device",
+      "target_type": "Netwerk Device",
+      "cnt": 30
+    }
+  ],
+  "query3_association_relationships": [
+    {
+      "source_type": "Netwerk",
+      "target_type": "Node",
+      "cnt": 270
+    },
+    {
+      "source_type": "Netwerk",
+      "target_type": "Netwerk Device",
+      "cnt": 141
+    },
+    {
+      "source_type": "Netwerk Device",
+      "target_type": "Netwerk",
+      "cnt": 141
+    },
+    {
+      "source_type": "Locatie",
+      "target_type": "Netwerk Device",
+      "cnt": 61
+    },
+    {
+      "source_type": "Netwerk Device",
+      "target_type": "Locatie",
+      "cnt": 61
+    },
+    {
+      "source_type": "Apparaat",
+      "target_type": "Netwerk",
+      "cnt": 26
+    },
+    {
+      "source_type": "Netwerk",
+      "target_type": "Apparaat",
+      "cnt": 26
+    },
+    {
+      "source_type": "Netwerk",
+      "target_type": "Netwerk",
+      "cnt": 6
+    },
+    {
+      "source_type": "Applicatie",
+      "target_type": "Netwerk",
+      "cnt": 1
+    },
+    {
+      "source_type": "Netwerk",
+      "target_type": "Applicatie",
+      "cnt": 1
+    }
+  ],
+  "query4_palo_alto_sample": [
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "Stadskantoor",
+      "related_type": "Locatie"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "Tweelinghuis",
+      "related_type": "Locatie"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "composition",
+      "related_title": "212.78.210.27",
+      "related_type": "Technologie-interface"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "flow",
+      "related_title": "HTTPS - 176.117.57.23 - 443",
+      "related_type": "Technologie-interface"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_Gemnet",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_Gemnet_OEG",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_Gemnet_STH",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_Gemnet_ZTW",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "Guest internet Vodafone",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "Internet Vodafone",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "composition",
+      "related_title": "Palo Alto STK",
+      "related_type": "Netwerk Device"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "composition",
+      "related_title": "Palo Alto TWH",
+      "related_type": "Netwerk Device"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_GovRoamWifi",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_INET_Access",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_INET_LDP",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_WIFI_Diensten",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_INET_WIFI",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_WIFI_Netwerk71",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_ADFS_PRD",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_ADFS_PRD2",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_ADFS_TST",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_AonVPN_Outside",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_BARS_PRD",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_BARS_TST",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_CAG",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_GBS-TWH",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_IA_Beheer",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_PARKGAR",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_REVPRXY_LIN",
+      "related_type": "Netwerk"
+    },
+    {
+      "title": "Palo Alto Firewall Cluster",
+      "name": "Netwerk Device",
+      "relationship_type": "association",
+      "related_title": "DMZ_REVPRXY_WIN",
+      "related_type": "Netwerk"
+    }
+  ],
+  "query5_locatie_assignments": [
+    {
+      "name": "Locatie",
+      "relationship_type": "assignment",
+      "cnt": 54
+    },
+    {
+      "name": "Apparaat",
+      "relationship_type": "assignment",
+      "cnt": 54
+    },
+    {
+      "name": "Node",
+      "relationship_type": "assignment",
+      "cnt": 4
+    }
+  ],
+  "query6_netwerk_device_children": [
+    {
+      "parent_device": "OL Firewall DMZ",
+      "child_count": 19
+    },
+    {
+      "parent_device": "Palo Alto Firewall Cluster",
+      "child_count": 13
+    },
+    {
+      "parent_device": "Ziggo/Vodafone router VRI",
+      "child_count": 5
+    },
+    {
+      "parent_device": "STP-INT-SW01 Switch",
+      "child_count": 4
+    },
+    {
+      "parent_device": "TWH-INT-SW01 Switch",
+      "child_count": 4
+    },
+    {
+      "parent_device": "Switch stack TWH",
+      "child_count": 2
+    },
+    {
+      "parent_device": "Switch stack STP",
+      "child_count": 2
+    },
+    {
+      "parent_device": "STH Patch Slib",
+      "child_count": 2
+    },
+    {
+      "parent_device": "SDVP2NFWL001 Member TWH PA-3050",
+      "child_count": 2
+    },
+    {
+      "parent_device": "SDVP2NFWL002 Member STP PA-3059",
+      "child_count": 2
+    },
+    {
+      "parent_device": "TWH-Wan-ST01 3750x-24 (stack)",
+      "child_count": 2
+    },
+    {
+      "parent_device": "STP-Wan-ST01 3750x-24 (stack)",
+      "child_count": 2
+    },
+    {
+      "parent_device": "Palo Alto STK",
+      "child_count": 1
+    },
+    {
+      "parent_device": "Palo Alto TWH",
+      "child_count": 1
+    },
+    {
+      "parent_device": "STP-INT-SW02 Switch",
+      "child_count": 1
+    }
+  ],
+  "query7_networks_per_device": [
+    {
+      "netwerk_device": "Palo Alto Firewall Cluster",
+      "network_count": 39,
+      "networks": "AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430, AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430"
+    },
+    {
+      "netwerk_device": "Palo Alto STK",
+      "network_count": 39,
+      "networks": "AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430"
+    },
+    {
+      "netwerk_device": "Palo Alto TWH",
+      "network_count": 39,
+      "networks": "AV-Systemen-LDN, AV-Systemen-LDP, AV-Systemen-OEG, AV-Systemen-ZTW, DMZ_ADFS_PRD, DMZ_ADFS_PRD2, DMZ_ADFS_TST, DMZ_AonVPN_Outside, DMZ_BARS_PRD, DMZ_BARS_TST, DMZ_CAG, DMZ_GBS-TWH, DMZ_Gemnet, DMZ_Gemnet_OEG, DMZ_Gemnet_STH, DMZ_Gemnet_ZTW, DMZ_GovRoamWifi, DMZ_IA_Beheer, DMZ_INET_Access, DMZ_INET_LDP, DMZ_INET_WIFI, DMZ_PARKGAR, DMZ_REVPRXY_LIN, DMZ_REVPRXY_WIN, DMZ_WEBNEXT, DMZ_WIFI_Diensten, DMZ_WIFI_Netwerk71, Guest internet Vodafone, INSIDE1, Internet Vodafone, Leiden VLAN 400, Leiderdorp VLAN 410, Oegstgeest VLAN 420, Oribi OEG, RNI_Scan_LDN, SZ_AuthenticationServices, SZ_Telecom, SZ_WebServices, Zoeterwoude VLAN 430"
+    },
+    {
+      "netwerk_device": "OL Firewall intern",
+      "network_count": 20,
+      "networks": "OL Internet, SPT_LAN0_EXA, SPT_LAN2_APPLICATIES, SPT_LAN2_HYPERV, SPT_LAN2_LB, SPT_LAN2_LEIDERDORP, SPT_LAN2_OEGST-SERVER, SPT-LAN2_AONVPN, SPT-LAN2_BACKEND, SPT-LAN2_DMZ, SPT-LAN2_ELO, SPT-LAN2_FRONTEND, SPT-LAN2_MS-INFRA, SPT-LAN2_PVSTP, SPT-LAN2_PVSTWH, SPT-LAN2_SBCCLIENT, SPT-LAN2_SOC-TES, SPT-LAN2_VDI, SPT-LAN2_ZTW-SERVER, SPT-TRN2_FW-VRF-1"
+    },
+    {
+      "netwerk_device": "OL Firewall DMZ",
+      "network_count": 7,
+      "networks": "SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB, SPT_LAN2_DMZESB, SPT_LAN2_DMZREVERSE, SPT_LAN2_DMZTELEKOM, SPT_TRN0_x, SPT-LAN2_DMZADFS, SPT-LAN2_DMZAONVPN, SPT-LAN2_DMZWEB"
+    },
+    {
+      "netwerk_device": "SPTNLLIDR02RT801",
+      "network_count": 5,
+      "networks": "SPT-TRN1_OSPF, SPT-TRN1_TWH, SPT-TRN2_IBGP, SPT-TRN2_OSPF, SPT-TRN2_STADHUIS"
+    },
+    {
+      "netwerk_device": "Router IA Beheer",
+      "network_count": 4,
+      "networks": "10.254.128.0/24, 10.254.129.0/24, 10.254.136.0/24, DMZ_IA_Beheer"
+    },
+    {
+      "netwerk_device": "TWH-Wan-ST01 3750x-24 (stack)",
+      "network_count": 4,
+      "networks": "DMZ, INSIDE1, Netwerk Slib, SPT-TRN1_OSPF, DMZ"
+    },
+    {
+      "netwerk_device": "STP-Wan-ST01 3750x-24 (stack)",
+      "network_count": 4,
+      "networks": "DMZ, INSIDE1, Netwerk Slib, SPT-TRN2_OSPF, DMZ"
+    },
+    {
+      "netwerk_device": "TWH-Core-01 N5K-C5596UP-FA",
+      "network_count": 4,
+      "networks": "INSIDE1, Netwerk Slib, SPT-TRN1_OSPF, DMZ"
+    }
+  ]
+}

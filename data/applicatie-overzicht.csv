@@ -1,0 +1,756 @@
+Applicatie,Categorie,Locatie,Server(s),Package(s)
+21QUBZ LDN,1 - Bedrijfskritisch,Cloud,,21QUBZ OEG 1.0 NL 01
+3Di Water Management LDN,3 - Standaard,On-premise,,3DiModeller LDN 3.34 NL 01
+7-Zip LDN,3 - Standaard,On-premise,,7-Zip ALG 24.08 NL 01
+A3 Digitaal LDN,3 - Standaard,Cloud,,
+AB Manufacturing Control LDN,3 - Standaard,Cloud,,ABMP-Test LDN 1.0 NL 01; ABMP LDN 1.0 NL 01
+ABSweb LDN,3 - Standaard,Cloud,,
+ABSweb OEG,3 - Standaard,Cloud,,
+AD Explorer LDN,3 - Standaard,On-premise,,ADExplorer SPT 1.44 EN 01
+AEC Collection OEG,3 - Standaard,On-premise,,
+ASAP Utilities LDN,4 - Niet kritisch,On-premise,,ASAP Utilities LDN 7.9.1 NL 01
+Access 2010 LDN,3 - Standaard,On-premise,sdvpvwapp013; sdvtvwapp007,
+Accessibility Insights LDP,3 - Standaard,On-premise,,Accessibility-Insights ALG 1.1.24 NL 01
+Active Directory,,,,
+ActiveCampaign LDN,3 - Standaard,Cloud,,
+Adobe Acrobat Pro LDN,3 - Standaard,On-premise,,
+Adobe Acrobat Reader LDN,4 - Niet kritisch,On-premise,,AcrobatReader_DC BAS 24.001.20615 NL 01; AcrobatReader_DC BAS 25.001.20813 NL 01
+Adobe Acrobat Standard DC LDN,3 - Standaard,On-premise,,AcrobatDC ALG 1.0 NL 01
+Adobe Creative Cloud LDN,3 - Standaard,Cloud,,Creative Cloud ALG 1.0 NL 01; CreativeCloud ALG 6.7.0 NL 01
+Adobe Illustrator LDN,3 - Standaard,On-premise,,
+Adobe InDesign LDN,3 - Standaard,Cloud,,
+Adobe Photoshop LDN,3 - Standaard,Cloud,,
+AfvalRIS Basis LDN,1 - Bedrijfskritisch,On-premise,ldnpvwapp082; ldntvwapp082,AfvalRisBasis LDN 12 NL 01; AfvalRisBasisTest LDN 12 NL 01
+AfvalRIS MCS LDN,3 - Standaard,On-premise,,AfvalRISMCS LDN 1.0 NL 01; AfvalRISMCS_Test LDN 1.0 NL 01
+AfvalRIS Reportviewer LDN,3 - Standaard,On-premise,,AfvalRisReportViewer LDN 12 NL 01; Afvalris ReportViewerTest LDN 12 NL 01
+AfvalWijzer LDP,3 - Standaard,Cloud,,
+Afvalwijzer LDN,3 - Standaard,Cloud,,
+Afvalwijzer OEG,3 - Standaard,Cloud,,
+AgriLink Reader LDN,3 - Standaard,On-premise,,
+Alle Kinderen Doen Mee,3 - Standaard,Cloud,,
+Allegro LDN,1 - Bedrijfskritisch,On-premise,sdvpvwfil101; sdvpvwfil102; sdvtvwfil101; sdvtvwfil102; sdvpvwapp154; sdvtvwapp154; sdvtvwfil002,Allegro LDN 1.0 NL 01; AllegroTest LDN 1.0 NL 01
+Antwoord voor Bedrijven (en berichtenbox),,Cloud,,
+Apache Superset LDP,3 - Standaard,Cloud,,
+Aquaview LDP,3 - Standaard,On-premise,,Aquaview ALG 21.04 NL 01
+Aquaview OEG,3 - Standaard,On-premise,,Aquaview ALG 21.04 NL 01
+Aquaview ZTW,3 - Standaard,On-premise,,Aquaview ALG 21.04 NL 01
+ArcGIS Online ELO LDN,3 - Standaard,Cloud,,
+ArcGIS Online LDN,3 - Standaard,Cloud,,
+ArcGIS Pro LDN,3 - Standaard,On-premise,ldnpvwapp117,ArcGIS LDN 10.6.1 EN 01; ArcGIS-Pro LDN 3.2 EN 01; ArcgisPro LDN 3.6 EN 01
+Archi LDN,3 - Standaard,On-premise,,Archi ALG 4.6.0 EN 01
+Archie CRM LDN,3 - Standaard,Cloud,,
+Archiefweb.eu LDN,3 - Standaard,Cloud,,
+Archiefweb.eu LDP,3 - Standaard,Cloud,,
+Archiefweb.eu OEG,3 - Standaard,Cloud,,
+Archiefweb.eu ZTW,3 - Standaard,Cloud,,
+Aspera Connect LDN,3 - Standaard,On-premise,,AsperaConnect ALG 3.9.9 NL 01
+Assets & Treasury LDN,3 - Standaard,Cloud,,TraceTreasuryCloud LDN 1.0 NL 01
+Assistance Online,,Cloud,,
+Atlantis Collectiebeheer LDN,4 - Niet kritisch,Cloud,,
+Atlantis Collectiebeheer OEG,4 - Niet kritisch,Cloud,,
+Atlas LDN,2 - Proceskritisch,Cloud,,
+Audacity ZTW,3 - Standaard,On-premise,,Audacity ZTW 2.1.2 NL 01
+AutoCAD Civil 3D LDN,2 - Proceskritisch,On-premise,,Civil3D ALG 2022.2 NL 01; Civil3DLSODL LDN 2025 NL 01; AutoCAD-Civil3D-2025-Profiel-Resetten LDN 1.0 NL 01; Civil3D ALG 2025 NL 01; Civil3DLPBSI LDN 2025 NL 01
+AutoCAD Map 3D LDN,2 - Proceskritisch,On-premise,sdvptwhwfil001,AutocadMap3D LDN 2022 NL 01; LokaalProfiel-LPBSI LDN 0.2 NL 01; Autocad-Profiel-LIDAD LDN 2025 NL 01; AutocadMap3D ALG 2025 NL 01; Autocad-Profiel-LPBSI LDN 2025 NL 01; Autocad-Profiel-LBEOB LDN 2025 NL 01; Autocad-Profiel-LSODL LDN 2025 NL 01; AutoCAD-MAP-3D-2025-Profiel-Resetten ALG 1.0 NL 01; AutocadMap3D ALG 2025.0.2 EN 01
+AutoCAD Map 3D LDP,2 - Proceskritisch,On-premise,,AutocadMap3D LDP 2022 NL 01; AutocadMap3D ALG 2025 NL 01; Autocad-Profiel-LDP LDP 2025 NL 01; AutoCAD-MAP-3D-2025-Profiel-Resetten ALG 1.0 NL 01; AutocadMap3D ALG 2025.0.2 EN 01
+AutoCAD Map 3D OEG,2 - Proceskritisch,On-premise,,AutocadMap3D OEG 2022 NL 01; AutocadMap3D_Lokaal_Profiel-OEG OEG 2022 NL 02; AutocadMap3D ALG 2025 NL 01; Autocad-Profiel-OEG OEG 2025 NL 01; AutoCAD-MAP-3D-2025-Profiel-Resetten ALG 1.0 NL 01; Autocad-Profiel-OEGVastgoed OEG 2025 NL 01; AutocadMap3D ALG 2025.0.2 EN 01
+AutoCAD Map 3D ZTW,2 - Proceskritisch,On-premise,,AutocadMap3D ZTW 2022 NL 01; AutocadMap3D ALG 2025 NL 01; Autocad-Profiel-ZTW ZTW 2025 NL 01; AutoCAD-MAP-3D-2025-Profiel-Resetten ALG 1.0 NL 01; AutocadMap3D ALG 2025.0.2 EN 01
+AutoTURN LDN,3 - Standaard,On-premise,ldnpvwapp116,AutoTurn LDN 11.01 EN 01; Autoturn ALG 2024.12.0.1.53 NL 01
+AutoTURN OEG,3 - Standaard,On-premise,sdvpvwapp143,Autoturn OEG 2024 NL 01
+Avola Decision LDN,2 - Proceskritisch,Cloud,,Avola LDN 1.0 NL 01
+Azure API Management LDN,2 - Proceskritisch,Cloud,,
+Azure Data Studio LDN,3 - Standaard,On-premise,,Azure-Data-Studio LDN 1.52 NL 01
+Azure Storage Explorer LDN,3 - Standaard,On-premise,,Azure-Storage-Explorer ALG 1.39.1 NL 01
+B&S Civiel LDN,3 - Standaard,Cloud,,Civiel ALG 9.0.122.6 NL 01
+B&S VISI LDN,3 - Standaard,Cloud,,VISI LDN 1.0 NL 01; VISI LDN 4.5.1 NL 01
+BKR Toegangsportaal,4 - Niet kritisch,Cloud,,BKR toegangsportaal LDN 2.0 NL 01
+BOSdA LDN,3 - Standaard,On-premise,,BOSDA LDN 2.5.4.12 NL 01
+BRI - Basisregistratie Inkomen,,Cloud,,
+BRISwarenhuis LDN,3 - Standaard,Cloud,,
+BRK - Basisregistratie Kadaster,,Cloud,,
+BRK-PB - Basisregistratie Kadaster Publiekrechtelijke Beperkingenbesluiten,,Cloud,,
+BRO - Basisregistratie Ondergrond,,Cloud,,
+BRT - Basisregistratie Topografie,,Cloud,,
+BRV - Basisregistratie Voertuigen,,Cloud,,
+BVV Inkijkfunctie,3 - Standaard,Cloud,,BVV Inkijkfunctie LDN 1.0 NL 01
+BarTender Print Station LDN,3 - Standaard,Cloud,,Printstation LDN 1.0 NL 01
+Base-Convert LDN,3 - Standaard,On-premise,,Base-Convert LDN 1.0.0 NL 01; Baseconvert LDN 1.0 EN 01
+Basisbeeld LDN,3 - Standaard,Cloud,,
+Beaufort DZB LDN,2 - Proceskritisch,,,
+Beaufort IDA LDN,1 - Bedrijfskritisch,,,
+Beheerportaal BRK-PB,3 - Standaard,Cloud,,
+Beheervoorziening BSN (BV-BSN),,Cloud,sdvpvwapp159; sdvtvwapp159,
+Belexpert LDN,3 - Standaard,On-premise,,
+BerekenUwRecht LDN,3 - Standaard,Cloud,,
+Besluit Ontheffingen Dienst,,Cloud,,BesluitOntheffingenDienst LDN 1.0 NL 01
+Better File Rename LDN,4 - Niet kritisch,On-premise,,BetterFileRename LDN 5.0 EN 01
+Bijstandsdebiteuren IB LDN,3 - Standaard,Cloud,,
+BikeControl LDN,3 - Standaard,Cloud,,
+Bitstop LDN,3 - Standaard,On-premise,elovwapp002,
+Blik Sensing LDN,3 - Standaard,Cloud,,
+BlueDolphin LDN,3 - Standaard,Cloud,sdvpvwapp149,
+Bluebeam PDF Revu LDN,2 - Proceskritisch,On-premise,,Revu Standard LDN 2020 NL 01
+Bluebeam PDF Revu LDP,3 - Standaard,On-premise,,Revu Standard LDP 2020 NL 01
+Bluebeam PDF Revu OEG,3 - Standaard,On-premise,,RevuStandard OEG 2020 NL 01
+Bluebeam PDF Revu ZTW,3 - Standaard,On-premise,,Revu Standard ZTW 2020 NL 01
+Book and Park LDN,3 - Standaard,Cloud,,
+Booktrack LDN,3 - Standaard,On-premise,,Booktrack LDN 2.165 NL 01
+Brickyard Backoffice LDN,1 - Bedrijfskritisch,Cloud,,
+Brightplan.nl,2 - Proceskritisch,Cloud,,
+BrutIS LDN,3 - Standaard,On-premise,,Brutis LDN 6.3 NL 01
+BrutIS LDP,3 - Standaard,On-premise,,Brutis LDP 1.0 NL 01
+BrutIS OEG,3 - Standaard,On-premise,,Brutis OEG 1.0 NL 01
+BrutIS ZTW,3 - Standaard,On-premise,,Brutis ZTW 1.0 NL 01
+BySpy Touch Registratie LDP,3 - Standaard,Cloud,,
+C-Ware LDP,3 - Standaard,On-premise,,
+CBS Open Data Statline,4 - Niet kritisch,Cloud,,Formulieren CBS upload ALG 1.0 NL 01
+CEwall Archief LDN,3 - Standaard,On-premise,sdvpvlcew001; sdvpvlcew002; sdvpvlcew003; sdvavlcew002,CEwall Archief BAS 2.4.4 NL 01
+CIS Suite LDN,2 - Proceskritisch,On-premise,,
+CJIB,,Cloud,,
+CLIQ,,Cloud,,
+COVOG,,Cloud,,
+CVDR Overheid,3 - Standaard,Cloud,,
+CadCorp SIS LDN,3 - Standaard,On-premise,,
+Calc4You OEG,2 - Proceskritisch,On-premise,,Calc4You OEG 6.6 NL 01
+Cale Weboffice LDN,3 - Standaard,Cloud,,
+Canva LDN,3 - Standaard,Cloud,,
+Canva Pro LDN,3 - Standaard,Cloud,,
+Capacito LDN,3 - Standaard,On-premise,,Capacito LDN 1.8.0 NL 01
+Capture One LDN,3 - Standaard,On-premise,,Capture-One-20 LDN 13.1.2.35 NL 01
+CardAccess ELO LDN,2 - Proceskritisch,On-premise,,
+CardAccess IDA LDN,2 - Proceskritisch,On-premise,sdvpvwapp123,
+CardsOnline PRO LDN,2 - Proceskritisch,Cloud,,
+Centrale Voorziening Geluid Gegevens (CVGG),,Cloud,,
+Centric Burgerzaken LDN,1 - Bedrijfskritisch,On-premise,sdvpvwapp157; sdvtvwapp157; sdvavwapp157,PortaalBurgerzaken_Test LDN 1.0 NL 01; PortaalBurgerzaken LDN 1.0 NL 01; Burgerzaken-PortaalTest LDN 1.0 NL 01
+Centric Burgerzaken LDP,1 - Bedrijfskritisch,On-premise,sdvpvwapp157; sdvtvwapp157; sdvavwapp157,PortaalBurgerzaken LDP 1.0 NL 01; PortaalBurgerzaken_Test LDP 1.0 NL 01
+Centric Burgerzaken OEG,1 - Bedrijfskritisch,On-premise,sdvpvwapp157; sdvtvwapp157; sdvavwapp157,PortaalBurgerzaken OEG 1.0 NL 01; PortaalBurgerzaken_Test OEG 1.0 NL 01
+Centric Burgerzaken ZTW,1 - Bedrijfskritisch,On-premise,sdvpvwapp157; sdvtvwapp157; sdvavwapp157,PortaalBurgerzaken_Test ZTW 1.0 NL 01; PortaalBurgerzaken ZTW 1.0 NL 01
+Certificering/PKI-overheid,,Cloud,,
+Chatbot GEM LDN,2 - Proceskritisch,Cloud,,
+Chrome LDN,3 - Standaard,On-premise,,Chrome-Enterprise ALG 131 NL 01
+CiVision Berichtenmodule LDN,1 - Bedrijfskritisch,On-premise,sdvtvwapp057; sdvpvwapp057,
+CiVision Samenlevingszaken W&I LDN,1 - Bedrijfskritisch,On-premise,sdvpvwapp094; sdvtvwapp094,CSAM LDN 1.0 NL 01; CSAM_Test LDN 1.0 NL 01; CSAM-Cloud-Test ALG 1.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+CiVision Samenlevingszaken W&I LDP,1 - Bedrijfskritisch,On-premise,sdvpvwapp094; sdvtvwapp094,CSAM LDN 1.0 NL 01; CSAM_Test LDN 1.0 NL 01; CSAM-Cloud-Test ALG 1.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+CiVision Samenlevingszaken W&I OEG,1 - Bedrijfskritisch,Cloud,,CSAM-Cloud-Test ALG 1.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+CiVision Samenlevingszaken W&I ZTW,1 - Bedrijfskritisch,Cloud,,CSAM-Cloud-Test ALG 1.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+Cisco Secure Endpoint LDN,,Cloud,,
+CitizenLab LDN,3 - Standaard,Cloud,,
+CitizenLab OEG,3 - Standaard,Cloud,,
+Citrix Director LDN,3 - Standaard,On-premise,,Director SPT 1.0 EN 01
+CityControl LDN,1 - Bedrijfskritisch,Cloud,,CityControlSystem LDN 1.0 NL 01; CityControlSystemTest LDN 1.0 NL 01
+CityControl OEG,3 - Standaard,Cloud,,City Control System OEG 1.0 NL 01
+CityControl ZTW,3 - Standaard,Cloud,,CityControl ZTW 1.0 NL 01
+CityPermit Backoffice LDN,1 - Bedrijfskritisch,Cloud,,CitypermitBackoffice LDN 1.0 NL 01; CitypermitBackoffice_Test LDN 1.0 NL 01
+CityPermit BezoekersApp LDN,1 - Bedrijfskritisch,Cloud,,CitypermitBezoekersApp LDN 1.0 NL 01; CitypermitBezoekersApp_Test LDN 1.0 NL 01
+CityPermit Digitaal loket LDN,1 - Bedrijfskritisch,Cloud,,CitypermitDigitaalLoket LDN 1.0 NL 01; CitypermitDigitaalLoket_Test LDN 1.0 NL 01
+Civision Samenlevingszaken Zorg LDN,1 - Bedrijfskritisch,On-premise,,CSAM LDN 1.0 NL 01; CSAM_Test LDN 1.0 NL 01; CSAM-Cloud-Test ALG 1.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+Civision Samenlevingszaken Zorg LDP,1 - Bedrijfskritisch,On-premise,,CSAM LDN 1.0 NL 01; CSAM_Test LDN 1.0 NL 01; CSAM-Cloud-Test ALG 1.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+Civision Samenlevingszaken Zorg OEG,1 - Bedrijfskritisch,Cloud,,CSAM-Cloud-Test ALG 1.0 NL 01; ClaroReadPro LDN 9.3.0 NL 01; Csam-Cloud ALG 1.0 NL 01
+Civision Samenlevingszaken Zorg ZTW,1 - Bedrijfskritisch,Cloud,,ClaroReadPro LDN 6.5.2 NL 01; CSAM-Cloud-Test ALG 1.0 NL 01
+Clappform LDN,3 - Standaard,Cloud,,ClappForm LDN 1.0 NL 01
+ClaroRead Pro LDN,3 - Standaard,On-premise,,
+Clickshare LDN,3 - Standaard,On-premise,,ClickShare ALG 4.36 NL 01
+Cocon LDN,3 - Standaard,On-premise,,Cocon LDN 10.0.302 NL 01
+Cognos LDN,2 - Proceskritisch,On-premise,sdvovwapp001; sdvpvwapp133,Cognos ALG 10.2.1 NL 01
+Collegawijzer LDN,3 - Standaard,On-premise,,
+Comfort Software Basic LDN,4 - Niet kritisch,On-premise,,Comfort Software Basic LDN 5.6 NL 01
+Compas LDN,2 - Proceskritisch,On-premise,ldnpvwapp120; ldntvwapp120,Compas LDN 1.0 NL 01; CompasTest LDN 1.0 NL 01
+Compendia LDN,3 - Standaard,Cloud,,
+Console Pro LDN,4 - Niet kritisch,On-premise,,ConsolePro LDN 2.05.15 EN 01
+Coosto LDP,3 - Standaard,Cloud,,
+Crystal Reports LDN,4 - Niet kritisch,On-premise,,CrystalReportsRuntime64bit BAS 13.0.19 EN 01; Crystal-Reports LDN 2008.02 NL 01
+Cubiks Online LDN,3 - Standaard,Cloud,,
+D-HYDRO Suite 1D2D LDN,3 - Standaard,On-premise,,D-HYDRO Suite 1D2D LDN 2024.01 NL 01
+DALI LDP,3 - Standaard,Cloud,,
+DALI OEG,3 - Standaard,Cloud,,
+DALI ZTW,3 - Standaard,Cloud,,
+DIALux Evo LDN,3 - Standaard,On-premise,,Dialux-Evo LDN 10.1 NL 01
+DICOS LDN,2 - Proceskritisch,Cloud,,
+DISCS LDN,4 - Niet kritisch,Cloud,,Discs LDN 1.0 NL 01
+DROP - Decentrale Regelgeving en Officiële Publicaties,,Cloud,,
+DSO-LV,,Cloud,,
+DWG Trueview LDN,3 - Standaard,On-premise,,DWG TrueView ALG 2022 NL 01
+Data B LDN,3 - Standaard,Cloud,,
+Databoytool LDN,3 - Standaard,On-premise,,
+Databrush LDN,3 - Standaard,Cloud,,
+Debble Workplace LDN,3 - Standaard,Cloud,,
+Deister Commander LDP,3 - Standaard,On-premise,,Commander LDP 1.0 NL 01
+Dezta Data Manager LDN,3 - Standaard,On-premise,,DeztaDataManager LDN 3 NL 01
+Dezta Plan LDN,3 - Standaard,On-premise,ldnpvwlic001,DeztaPlan LDN 3 NL 01; DeztaPlan_Pilot LDN 3 NL 01
+DiaLOG LDN,3 - Standaard,Cloud,,
+Diagnose & Matching LDN,3 - Standaard,Cloud,,Diagnose LDN 1.0 NL 01; CompetenSYS LDN 1.0 NL 01
+DigiD,,Cloud,,
+DigiLOP,3 - Standaard,Cloud,,
+Digilevering,,Cloud,,
+Digimelding,,Cloud,,
+Digipoort,,Cloud,,
+Digitaal Logboek LDN,3 - Standaard,Cloud,,
+DinoCapture LDN,4 - Niet kritisch,On-premise,,DinoCapture20 LDN 1.4.5.0 NL 01; DinoCapture LDN 1.5 NL 01
+Divosa Benchmark W&I,4 - Niet kritisch,Cloud,,
+DocLogic LDN,2 - Proceskritisch,On-premise,sdvpvwapp142; sdvtvwapp142,
+DocuDistri LDN,2 - Proceskritisch,On-premise,,
+Dormakaba Exos LDP,2 - Proceskritisch,Cloud,sdvpvwapp145,Exos-Programmer LDP 1.0 NL 01; Exos-Reader LDP 1.0 NL 01
+Dragon Naturally Speaking LDN,4 - Niet kritisch,On-premise,,Dragon Naturally Speaking LDN 15.3 NL 01; Dragon Naturally Speaking LDN 15.61 NL 01
+Drumis LDN,4 - Niet kritisch,On-premise,ldnpvwapp094,Drumis LDN 3.25.4927.1 NL 01; DrumisTest LDN 3.25.4927.1 NL 01
+DuboCalc LDN,3 - Standaard,Cloud,,
+Duopp LDN,3 - Standaard,Cloud,,
+Dymo Label Software LDN,3 - Standaard,On-premise,,
+E-herkenning voor bedrijven,,Cloud,,
+EQili LDN,3 - Standaard,Cloud,,Eqili ALG 3.1.4 NL 01
+Easy Cash G LDN,2 - Proceskritisch,On-premise,,
+Easyfunders LDN,2 - Proceskritisch,Cloud,,easyfunders ALG 1.0 NL 01
+Elasticsearch LDN,3 - Standaard,On-premise,,
+Engage Process Enterprise LDN,3 - Standaard,Cloud,,modeler ALG 1.0 NL 01
+Eucaris,3 - Standaard,Cloud,,Eucaris LDN 1.0 NL 01
+EvenementAssistent LDN,2 - Proceskritisch,Cloud,,
+Evenementenbeheer LDN,2 - Proceskritisch,On-premise,,Evenementenbeheer LDN 2009 NL 01
+Exact Globe+ LDN,1 - Bedrijfskritisch,Cloud,,Globe LDN 1.0 NL 01
+Excel 2016 LDN,3 - Standaard,On-premise,,Excel x64 ALG 2016 NL 01
+Exchange 2019 SE LDN,3 - Standaard,On-premise,sptex001; sdvpvwsql010; sptex002,
+EyeBase LDN,3 - Standaard,On-premise,,EyeBase LDN 42.4 NL 01
+FME Form LDN,3 - Standaard,On-premise,ldnpvwapp097; sdvpvwapp127; sdvtvwapp110; ldnpvwapp117,FME-Desktop SPT 2021.2.5 NL 01; FME-Forms LDN 2025.2 NL 01
+Facebook,,Cloud,,
+FileZilla LDN,4 - Niet kritisch,On-premise,elovwapp002,FileZilla ALG 3.68.1 NL 01; Filezilla ALG 3.69.5 NL 01
+Firefox LDN,3 - Standaard,On-premise,,Firefox-ESR-Surface ALG 128.3 NL 01; Firefox-ESR-Vdisk ALG 128.10 NL 01; Firefox-ESR-Vdisk ALG 140 NL 01; Firefox-ESR-Vdisk ALG 140.7 NL 01
+Fixi OEG,2 - Proceskritisch,Cloud,,
+Flexscreen LDN,3 - Standaard,Cloud,,
+Flowmailer Go LDN,2 - Proceskritisch,Cloud,,
+FormCycle LDN,2 - Proceskritisch,Cloud,,
+Formdesk LDN,2 - Proceskritisch,Cloud,sdvpvwapp135,
+Foutenmeldpunt BSN,3 - Standaard,Cloud,,FoutmeldpuntBSN LDN 4.0.2 NL 01
+Fullhouse Online LDN,3 - Standaard,Cloud,hrlpvwapp002,Fullhouse LDN 2019.10.1 NL 01
+GBA-V (Verstrekkingsvoorziening),,Cloud,,
+GGK - Gemeentelijk Gegevensknooppunt,,Cloud,,
+GISkit PlanKaart LDN,3 - Standaard,On-premise,,Imro_Tekenen LDN 2.1 NL 01; Plankaart-Voor-AutoCad LDN 8.0.7 NL 01
+GO WIBON LDN,3 - Standaard,Cloud,,
+GREX10 OEG,3 - Standaard,Cloud,,Grex10 OEG 1.0 NL 01
+GVOP - Gemeenschappelijke voorziening Officiële Publicaties,3 - Standaard,Cloud,,
+Gehandicaptenparkeerkaart,3 - Standaard,Cloud,,GehandicaptenParkeerKaart ZTW 1.0 NL 01; GehandicaptenParkeerKaart OEG 1.0 NL 01; GehandicaptenParkeerKaart LDP 1.0 NL 01; GehandicaptenParkeerKaart LDN 1.0 NL 01
+GemCloud Regieboxx Digitale Deurmat CORV LDN,3 - Standaard,Cloud,,
+Gemal,,,,
+Gemeente op Afspraak ZTW,2 - Proceskritisch,Cloud,,
+Gemraad.nl LDN,3 - Standaard,Cloud,,
+GeoServer LDN,3 - Standaard,On-premise,sdvpvwapp147; sdvtvwapp147,
+GeoSignum Pointer LDN,3 - Standaard,Cloud,,
+GeoStart Programma Binnenstad LDN,3 - Standaard,Cloud,,
+GeoVisia Desktop LDN,4 - Niet kritisch,On-premise,ldnpvwlic001,
+GeoVisia Office Cloud LDN,2 - Proceskritisch,Cloud,,Geovisia-Office-Cloud ALG 1.0 NL 01
+GeoVisia Online Cloud LDN,2 - Proceskritisch,Cloud,,Geovisia-Online ALG 1.0 NL 01
+Gladheid.nl OEG,3 - Standaard,Cloud,,Gladheid OEG 1.0 NL 01
+Google Analytics LDN,3 - Standaard,Cloud,,
+Google Earth LDN,4 - Niet kritisch,On-premise,,Earth ALG 7.3 NL 01
+GovMetric CX LDN,3 - Standaard,Cloud,,GovMetric CX LDN 1.0 NL 01
+Grip op Participatiewet LDN,4 - Niet kritisch,Cloud,,
+Grip op WMO LDN,4 - Niet kritisch,Cloud,,
+GroupMessenger Gladheid.nl LDN,3 - Standaard,Cloud,,
+HACS LDN,2 - Proceskritisch,Cloud,,
+HMC Portaal,4 - Niet kritisch,Cloud,,
+HR - Handelsregister,,Cloud,,
+HR21 LDN,3 - Standaard,Cloud,,
+Haal Centraal,,Cloud,,
+HandDbase LDN,3 - Standaard,On-premise,,
+Handboek Bomen LDP,4 - Niet kritisch,Cloud,,
+Handboek Burgerzaken Amsterdam LDN,4 - Niet kritisch,Cloud,,HandboekBurgerzaken ALG 1.0 NL 01
+HelloME LDN,2 - Proceskritisch,Cloud,,
+I-View LDN,3 - Standaard,Cloud,,I-View LDN 2.0 NL 01
+I/Net Seven LDN,3 - Standaard,On-premise,ldnpvwapp113; ldnpvwapp114,InetSeven LDN 2.4.9 EN 01
+IAM LDN,1 - Bedrijfskritisch,On-premise,sdvpvwapp012; sdvtvwapp131,
+IBAK Reportviewer LDN,3 - Standaard,On-premise,,
+IBAN-Naam Check LDN,3 - Standaard,Cloud,,
+IBANC LDN,3 - Standaard,On-premise,ldnpvwapp126; ldntvwapp126,IBANC LDN 5.2.2 NL 01
+IBM License Metric Tool LDN,3 - Standaard,On-premise,,
+IDHA-online LDN,3 - Standaard,Cloud,,
+IKAS Evolution LDN,3 - Standaard,Cloud,,
+IKAS Report Viewer LDN,3 - Standaard,Cloud,,
+INA-PFR LDN,3 - Standaard,Cloud,,
+ING InsideBusiness Payments LDN,3 - Standaard,On-premise,sdvpvwapp014,Inside Business LDN 1.0.0 NL 01
+Ideoma Ligplaats LDN,4 - Niet kritisch,On-premise,,Ideoma LDN 1.0 NL 01
+ImageCapture LDN,3 - Standaard,Cloud,,ImageCapture LDN 1.0 NL 01
+Impact Suite LDN,3 - Standaard,On-premise,,Impact_Suite SPT 2015 NL 01
+In-Spect Dossier LDN,2 - Proceskritisch,On-premise,,In-SpectDossierTest LDN 1.0 NL 01; In-SpectDossier LDN 1.0 NL 01
+In-Spect Herberekenen LDN,3 - Standaard,On-premise,,Herberekeningen LDN 1.0 NL 01; In-SpectHerberekenenTest LDN 1.0 NL 01; In-Spect-Herberekenen-Prod LDN 1.0 NL 01
+In-Spect Signaal LDN,3 - Standaard,On-premise,,In-SpectSignaalTest LDN 1.0 NL 01; In-SpectSignaal LDN 1.0 NL 01
+InfoRM LDN,3 - Standaard,Cloud,,NPR-Info-Applicatie LDN 1.0 NL 01
+InfraCAD LDN,2 - Proceskritisch,On-premise,,Infracad ALG 8.06 NL 01; InfraCAD ALG 8.1.25 NL 01; InfraCAD ALG 8.2 NL 01
+InfraCAD Map LDN,2 - Proceskritisch,On-premise,,InfracadMAP ALG 8.1 NL 01; InfraCAD-Map ALG 8125 NL 01; InfraCAD-Map ALG 8.2 NL 01
+Ingenico Internetkassa LDN,3 - Standaard,Cloud,,Internetkassa SPT 1.0 NL 01
+Inkscape LDN,4 - Niet kritisch,On-premise,,Inkscape LDN 1.3.2 NL 01
+Innen eigen bijdrage Wmo en Wtcg (CAK),,Cloud,,
+Inspectieplanner LDN,3 - Standaard,Cloud,,
+Inspectiesoftware Precariobelasting LDN,3 - Standaard,,,
+IntelliOps LDN,3 - Standaard,Cloud,,
+Internet Explorer LDN,3 - Standaard,On-premise,,
+InternetSpiegel LDN,3 - Standaard,,,
+Intune LDN,3 - Standaard,Cloud,,
+Invoned,3 - Standaard,Cloud,,
+Inzicht Sociaal Domein LDN,4 - Niet kritisch,Cloud,,inzicht Sociaal Domein LDN 1.0 NL 01
+Irfanview LDN,4 - Niet kritisch,On-premise,,Irfanview ALG 470 NL 01; Irfanview ALG 473 NL 01
+JCC - Betalen LDP,1 - Bedrijfskritisch,On-premise,ldppvwapp105,Betalen LDP 1.0 NL 01
+JCC - Betalen OEG,1 - Bedrijfskritisch,On-premise,oegpvwapp043,Betalen OEG 1.0 NL 01
+JCC - Betalen ZTW,3 - Standaard,On-premise,ztwpvwapp007; ztwtvwapp007,BetalenTest ZTW 1.0 NL 01; Betalen ZTW 1.0 NL 01
+JOIN Klantcontact LDN,1 - Bedrijfskritisch,On-premise,ldnpvwapp121; ldntvwapp121,Join_KlantContactCentrum_Prod LDN 1.0 NL 01
+JOIN Klantcontact LDP,1 - Bedrijfskritisch,On-premise,ldppvwapp103; ldptvwapp103,Join_KlantContactCentrum_Prod LDP 1.0 NL 01; Join_ZGW LDP 1.0 NL 01
+JOIN Klantcontact OEG,1 - Bedrijfskritisch,On-premise,oegpvwapp041; oegtvwapp041,Join_KlantContactCentrum_Prod OEG 1.0 NL 01
+JOIN Klantcontact ZTW,1 - Bedrijfskritisch,On-premise,ztwpvwapp103; ztwtvwapp103,Join_KlantContactCentrum_Prod ZTW 1.0 NL 01
+JOIN Now LDN,1 - Bedrijfskritisch,On-premise,,JoinNow-MergeUpdate BAS 2.52.5.29604 NL 01; JoinNow-MergeUpdate BAS 2.52.5 NL 01; JoinNow ALG 2025.2 NL 01; JoinNowX86 ALG 2025.8 NL 01; JoinNow ALG 2025.8 NL 01; JoinNowX86 ALG 2025.11 NL 01
+JOIN Search LDN,1 - Bedrijfskritisch,On-premise,sdvavwapp005; sdvavwapp006; sdvpvwapp045; sdvpvwapp046,
+JOIN Zaak & Document LDN,1 - Bedrijfskritisch,On-premise,sdvavwapp001; sdvavwapp002; sdvavwapp003; sdvavwapp004; sdvavwapp005; sdvavwapp006; sdvpvwapp041; sdvpvwapp042; sdvpvwapp043; sdvpvwapp044; sdvpvwapp045; sdvpvwapp046,Join_ZGW LDN 1.0 NL 01; Join_ZGW-ACC LDN 1.0 NL 01
+JOIN Zaak & Document LDP,1 - Bedrijfskritisch,On-premise,sdvavwapp001; sdvavwapp002; sdvavwapp003; sdvavwapp004; sdvavwapp005; sdvavwapp006; sdvpvwapp041; sdvpvwapp042; sdvpvwapp043; sdvpvwapp044; sdvpvwapp045; sdvpvwapp046,Join_ZGW-ACC LDP 1.0 NL 01
+JOIN Zaak & Document OEG,1 - Bedrijfskritisch,On-premise,sdvavwapp001; sdvavwapp002; sdvavwapp003; sdvavwapp004; sdvavwapp005; sdvavwapp006; sdvpvwapp041; sdvpvwapp042; sdvpvwapp043; sdvpvwapp044; sdvpvwapp045; sdvpvwapp046,Join_ZGW-ACC OEG 1.0 NL 01; Join_ZGW OEG 1.0 NL 01
+JOIN Zaak & Document ZTW,1 - Bedrijfskritisch,On-premise,sdvavwapp001; sdvavwapp002; sdvavwapp003; sdvavwapp004; sdvavwapp005; sdvavwapp006; sdvpvwapp041; sdvpvwapp042; sdvpvwapp043; sdvpvwapp044; sdvpvwapp045; sdvpvwapp046,Join_ZGW-Test ZTW 1.0 NL 01; Join_ZGW-ACC ZTW 1.0 NL 01; Join_ZGW ZTW 1.0 NL 01; Join_Client_Config_Test ZTW 1.0 NL 01
+JOIN Zaaktypen LDN,3 - Standaard,Cloud,,
+JOIN Zaaktypen LDP,3 - Standaard,Cloud,,
+JOIN Zaaktypen OEG,3 - Standaard,Cloud,,
+JOIN Zaaktypen ZTW,3 - Standaard,Cloud,,
+JUBES-component (voorheen CORV),,Cloud,,
+Jabra Direct LDN,3 - Standaard,On-premise,,Jabra-Direct LDN 6.24 NL 01
+Jaws LDN,4 - Niet kritisch,On-premise,,Jaws LDN 2020 NL 01
+Jewel Inzameling LDN,2 - Proceskritisch,Cloud,,Jewel LDN 1.0 NL 01
+Joomla! LDN,1 - Bedrijfskritisch,Cloud,,
+Juno 2 LDN,3 - Standaard,Cloud,,
+KLIC service - Kabels en Leidingen,,Cloud,,
+KLIC-WIBON LDN,2 - Proceskritisch,Cloud,,
+KNOOP - Gegevensknooppunt voor (Basis)registraties,,Cloud,,
+Kadaster Online,3 - Standaard,Cloud,,Kadaster online ALG 1.0 NL 01
+Key2Berichtenmodule PIV LDN,2 - Proceskritisch,On-premise,sdvstpsora05; sdvstpsora06,Key2Berichtenverkeer LDN 1.0 NL 01; Key2Berichtenverkeer_Test LDN 1.0 NL 01; Key2BerichtenmodulePIV-jws LDN 1.0 NL 01
+Key2Berichtenmodule PIV LDP,2 - Proceskritisch,On-premise,sdvstpsora05; sdvstpsora06,Key2BerichtenmodulePIV-jws LDP 1.0 NL 01
+Key2Berichtenmodule PIV OEG,2 - Proceskritisch,On-premise,sdvstpsora05; sdvstpsora06,Key2BerichtenmodulePIV-jws OEG 1.0 NL 01
+Key2Berichtenmodule PIV ZTW,2 - Proceskritisch,On-premise,sdvstpsora05; sdvstpsora06,Key2BerichtenmodulePIV Test ZTW 1.0 NL 01; Key2BerichtenmodulePIV-jws-Test ZTW 1.0 NL 01; Key2BerichtenmodulePIV-jws ZTW 1.0 NL 01
+Key2Betalen LDN,1 - Bedrijfskritisch,On-premise,ldnpvwapp130,Key2Betalen LDN 5.3.1 NL 01; Key2Betalen_Test LDN 5.3.1 NL 01; Key2Betalen_Test LDN 5.5 NL 01; Key2Betalen LDN 5.5 NL 01
+Key2Burgerzaken LDN,1 - Bedrijfskritisch,On-premise,sdvpvwapp140; sdvtvwapp135; sdvstpsora05; sdvstpsora06,Key2Burgerzaken Test LDN 1.0 NL 01; Key2Burgerzaken-jws-Test LDN 1.0 NL 01; Key2Burgerzaken-jws LDN 1.0 NL 01
+Key2Burgerzaken LDP,1 - Bedrijfskritisch,On-premise,sdvpvwapp140; sdvtvwapp135; sdvstpsora05; sdvstpsora06,Key2Burgerzaken-jws-Test LDP 1.0 NL 01; Key2Burgerzaken-jws-prod LDP 1.0 NL 01
+Key2Burgerzaken OEG,1 - Bedrijfskritisch,On-premise,sdvpvwapp140; sdvtvwapp135; sdvstpsora05; sdvstpsora06,Key2Burgerzaken-jws-Test OEG 1.0 NL 01; Key2Burgerzaken-jws OEG 1.0 NL 01
+Key2Burgerzaken ZTW,1 - Bedrijfskritisch,On-premise,sdvpvwapp140; sdvtvwapp135; sdvstpsora05; sdvstpsora06,Key2Burgerzaken-jws-Test ZTW 1.0 NL 01; Key2Burgerzaken-jws ZTW 1.0 NL 01
+Key2Datadistributie LDN,1 - Bedrijfskritisch,On-premise,sdvpvwapp122; sdvtvwapp122; sdvstpsora05; sdvstpsora06; ldnpvwapp127; ldntvwapp127,Key2Datadistributie-jws-Test LDN 1.0 NL 01; Key2Datadistributie-jws LDN 1.0 NL 01
+Key2Datadistributie LDP,1 - Bedrijfskritisch,On-premise,sdvpvwapp122; sdvtvwapp122; sdvstpsora05; sdvstpsora06; ldppvwapp104; ldptvwapp104,Key2Datadistributie-jws-Test LDP 1.0 NL 01; Key2Datadistributie-jws LDP 1.0 NL 01
+Key2Datadistributie OEG,1 - Bedrijfskritisch,On-premise,sdvpvwapp122; sdvtvwapp122; sdvstpsora05; sdvstpsora06; oegpvwapp042; oegtvwapp042,Key2Datadistributie-jws-Test OEG 1.0 NL 01; Key2Datadistributie-jws OEG 1.0 NL 01
+Key2Datadistributie ZTW,1 - Bedrijfskritisch,On-premise,sdvpvwapp122; sdvtvwapp122; sdvstpsora05; sdvstpsora06; ztwpvwapp104; ztwtvwapp104,Key2Datadistributie-jws-test ZTW 1.0 NL 01; Key2Datadistributie-jws ZTW 1.0 NL 01
+Key2GBA-V LDN,1 - Bedrijfskritisch,On-premise,sdvpvwapp159; sdvtvwapp159,Key2GBAV LDN 1.0 NL 01; Key2GbaV_Share LDN 1.0 NL 01; Key2GbaVTEST_Share LDN 1.0 NL 01; Key2GBAV-Test LDN 1.0 NL 01
+Key2GBA-V LDP,1 - Bedrijfskritisch,On-premise,sdvpvwapp159; sdvtvwapp159,Key2GBAV LDP 1.0 NL 01; Key2GBAV-Test LDP 1.0 NL 01
+Key2GBA-V OEG,1 - Bedrijfskritisch,On-premise,sdvpvwapp159; sdvtvwapp159,Key2GBAV OEG 1.0 NL 01; Key2GBAV-Test OEG 1.0 NL 01
+Key2GBA-V ZTW,1 - Bedrijfskritisch,On-premise,sdvpvwapp159; sdvtvwapp159,Key2GBAV ZTW 1.0 NL 01; Key2GBAV-Test ZTW 1.0 NL 01
+Key2VOA LDN,2 - Proceskritisch,On-premise,sdvpvwapp139; sdvstpsora05; sdvstpsora06,Key2VOA-jws LDN 1.0 NL 01
+Key2VOA LDP,2 - Proceskritisch,On-premise,sdvpvwapp139; sdvstpsora05; sdvstpsora06,Key2VOA-jws LDP 1.0 NL 01
+Key2VOA OEG,2 - Proceskritisch,On-premise,sdvpvwapp139; sdvstpsora05; sdvstpsora06,Key2VOA-jws OEG 1.0 NL 01
+Key2VOA ZTW,2 - Proceskritisch,On-premise,sdvpvwapp139; sdvstpsora05; sdvstpsora06,Key2VOA-jws-ZTW ZTW 1.0 NL 01
+KeyTag Manager LDN,3 - Standaard,On-premise,,DatalogManager LDN 1.20.12 NL 01
+KiC Online LDN,3 - Standaard,Cloud,,KICOnline LDN 1.0 NL 01
+Kikker LDN,3 - Standaard,On-premise,sdvpvwfil103,Kikker LDN 54u NL 01
+Kikker LDP,3 - Standaard,On-premise,sdvpvwfil103,Kikker LDP 54u NL 01
+Kikker OEG,3 - Standaard,On-premise,sdvpvwfil103,Kikker OEG 54u NL 01
+Kikker ZTW,3 - Standaard,On-premise,sdvpvwfil103,Kikker ZTW 54u NL 01
+Klic-Viewer LDN,3 - Standaard,On-premise,,KlicViewer ALG 4.3 NL 01
+Kofax Capture Enterprise LDN,2 - Proceskritisch,On-premise,sdvtvwapp127; sdvpvwapp138,KofaxCaptureEnterprise LDN 11.1 NL 01; Kofax-OCR LDN 1.0 NL 01; Kofax-OCR-Test LDN 1.0 NL 01
+Kofax Transformation Modules LDN,2 - Proceskritisch,On-premise,,Kofax_OCR_Test SPT 1.0 NL 1.0; Kofax_OCR SPT 1.0 NL 01
+Kostendekkendheid.nl LDN,3 - Standaard,Cloud,,
+Kostendekkendheid.nl LDP,3 - Standaard,Cloud,,
+Kostendekkendheid.nl OEG,3 - Standaard,Cloud,,
+Kostendekkendheid.nl ZTW,3 - Standaard,Cloud,,
+KvK Online,3 - Standaard,Cloud,,Online LDN 1.0 NL 01
+Kwaliteitscentrale LDN,3 - Standaard,On-premise,,
+Kwaliteitsmonitor BRP,3 - Standaard,Cloud,,kwaliteitsmonitor ALG 1.0 NL 01
+LCMS,3 - Standaard,Cloud,,LCMS LDN 1.0 NL 01
+LRKP - GIR LDN,3 - Standaard,Cloud,,
+LV-BAG - Basisregistratie Adressen en Gebouwen,,Cloud,,
+LV-BGT - Basisregistratie Grootschalige Topografie,,Cloud,,
+LV-WOZ - Basisregistratie Waardering Onroerende Zaken,,Cloud,,
+LVBB,,Cloud,,
+LaPosta OEG,3 - Standaard,Cloud,,
+LabelLite LDN,4 - Niet kritisch,On-premise,,LabelLite LDN 4.7.5.2 NL 01
+Laposta LDP,3 - Standaard,Cloud,,
+Legal Intelligence LDN,4 - Niet kritisch,Cloud,,
+Leiden.welstandinbeeld.nl,4 - Niet kritisch,Cloud,,
+Lias Analytics LDN,3 - Standaard,Cloud,,
+Lias BUIG LDN,3 - Standaard,Cloud,,
+Lias INFO LDN,3 - Standaard,Cloud,,
+Lias PAUW LDN,3 - Standaard,Cloud,,Pauw123 LDN 1.0 NL 01
+Locatus LDN,4 - Niet kritisch,Cloud,,Locatus LDN 1.0 NL 01
+Logilink Proxy LDN,2 - Proceskritisch,On-premise,ldnpvwapp128,
+Logilink Proxy LDP,1 - Bedrijfskritisch,On-premise,ldnpvwapp128,
+Logilink Proxy OEG,2 - Proceskritisch,On-premise,ldnpvwapp128,
+Logilink Proxy ZTW,2 - Proceskritisch,On-premise,ldnpvwapp128,
+Loket voortijdig schoolverlater (RMC),,Cloud,,
+MAPublisher LDN,3 - Standaard,On-premise,,MAPublisher LDN 11.5 NL 01
+MDU Client LDN,1 - Bedrijfskritisch,On-premise,ldnpvwapp007; ldntvwapp007,MDUClientTest ALG 5.2.0.4 NL 01; MDUClientProd ALG 5.2.0.4 NL 01; MDUClient_Test ALG 5.3.0.3 NL 01; MDUClient_Prod ALG 5.3.0.3 NL 01; MDUClient_Test LDN 1.0 NL 01; MDUClient_Prod LDN 1.0 NL 01; MDUClient ALG 5.4.0.1 NL 01; MDUClient_Test ALG 5.4.0.2 NL 01; MDUClient ALG 5.4.0.2 NL 01
+MDU Client LDP,1 - Bedrijfskritisch,On-premise,ldppvwapp007; ldptvwapp006,MDUClientTest ALG 5.2.0.4 NL 01; MDUClientProd ALG 5.2.0.4 NL 01; MDUClient_Test ALG 5.3.0.3 NL 01; MDUClient_Prod ALG 5.3.0.3 NL 01; MDUClient_Test LDP 1.0 NL 01; MDUClient_Prod LDP 1.0 NL 01; MDUClient ALG 5.4.0.1 NL 01; MDUClient_Test ALG 5.4.0.2 NL 01; MDUClient ALG 5.4.0.2 NL 01
+MDU Client OEG,1 - Bedrijfskritisch,On-premise,oegpvwapp004; oegtvwapp004,MDUClientTest ALG 5.2.0.4 NL 01; MDUClientProd ALG 5.2.0.4 NL 01; MDUClient_Test ALG 5.3.0.3 NL 01; MDUClient_Prod ALG 5.3.0.3 NL 01; MDUClient_Prod OEG 1.0 NL 01; MDUClient ALG 5.4.0.1 NL 01; MDUClient_Test ALG 5.4.0.2 NL 01; MDUClient ALG 5.4.0.2 NL 01; MDUClient OEG 5.6.0.1 NL 01; MDUClient_Test OEG 1.0 NL 01
+MDU Client ZTW,1 - Bedrijfskritisch,On-premise,ztwpvwapp008; ztwtvwapp002,MDUClientTest ALG 5.2.0.4 NL 01; MDUClientProd ALG 5.2.0.4 NL 01; MDUClient_Prod ZTW 1.0 NL 01; MDUClient_Test ALG 5.3.0.3 NL 01; MDUClient_Prod ALG 5.3.0.3 NL 01; MDUClient_Test ZTW 1.0 NL 01; MDUClient ALG 5.4.0.1 NL 01; MDUClient_Test ALG 5.4.0.2 NL 01; MDUClient ALG 5.4.0.2 NL 01; MDUClient_Test - 5.6.0.3 NL 01
+MO Zaak Portaal,,Cloud,,
+MOON LDN,3 - Standaard,Cloud,,
+MOOR Platform LDN,3 - Standaard,Cloud,,
+MSP360 Explorer LDN,3 - Standaard,On-premise,,Cloudberry-Explorer LDN 5.9.3.5 NL 01
+MagicInfo LDN,3 - Standaard,Cloud,,MagicInfo LDN 1.0 NL 01
+MailChimp LDN,3 - Standaard,Cloud,,
+Makelaarsuite LDN,1 - Bedrijfskritisch,Cloud,,
+MapGuide Maestro LDN,3 - Standaard,On-premise,sdvtvwapp121,MapGuideAuthor LDN 6.5 EN 01
+Mappi LDN,3 - Standaard,Cloud,,
+Mappi OEG,3 - Standaard,Cloud,,
+Medipoint Portaal,,Cloud,,
+Melvin LDN,3 - Standaard,Cloud,,
+Memorix Maior E-Loket NOBS LDN,3 - Standaard,Cloud,,Memorix LDN 1.0.0 NL 01
+Memorix Maior E-Loket NOBS LDP,3 - Standaard,Cloud,,Memorix LDP 1.0 NL 01
+Memorix Nexus LDN,1 - Bedrijfskritisch,Cloud,,MemorixMaior LDN 1 NL 01
+Mendix LDN,2 - Proceskritisch,Cloud,,
+Mentimeter Pro LDN,3 - Standaard,Cloud,,
+Mercell LDN,3 - Standaard,Cloud,,
+MetaCompliance eLearning LDN,3 - Standaard,Cloud,,MyCompliance ALG 1.0 NL 01
+MetroCount Traffic Executive LDN,3 - Standaard,On-premise,,Traffic Executive LDN 5.08 NL 01
+Meyra Zorglogin Portaal,4 - Niet kritisch,Cloud,,
+Microsoft 365 - Access LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Excel LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Exchange Online LDN,1 - Bedrijfskritisch,Cloud,,
+Microsoft 365 - OneDrive LDN,3 - Standaard,On-premise,,
+Microsoft 365 - OneNote LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Outlook LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Power BI LDN,3 - Standaard,On-premise,,Power BI Desktop ALG 2.143 NL 01
+Microsoft 365 - PowerPoint LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Project LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Publisher LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Sharepoint Online LDN,3 - Standaard,Cloud,,
+Microsoft 365 - Teams LDN,3 - Standaard,On-premise,,
+Microsoft 365 - Visio LDN,3 - Standaard,On-premise,,Visio BAS 1.0 NL 01
+Microsoft 365 - Word LDN,3 - Standaard,On-premise,,
+Microsoft 365 LDN,2 - Proceskritisch,Cloud,,Office365 BAS 1.0 NL 01
+Microsoft Defender plus ATP LDN,2 - Proceskritisch,Cloud,,
+Microsoft Powertoys LDN,3 - Standaard,On-premise,,
+Microsoft SQL Server Management Studio LDN,3 - Standaard,On-premise,,SQL-ManagementStudio LDN 21 NL 01
+Mijn BNG,3 - Standaard,Cloud,,Mijn-BNG ALG 1.0 NL 01
+Mijn Belastingdienst Zakelijk,,Cloud,,
+Mijn CAK Zakelijk (Extranet),3 - Standaard,Cloud,,
+Mijn PGB portaal,,Cloud,,
+Mijn Publicaties Portaal LDN,3 - Standaard,Cloud,,
+MijnGGN LDN,3 - Standaard,Cloud,,
+MijnGemeente App LDN,3 - Standaard,Cloud,,
+MijnOverheid Berichtenbox,,Cloud,,
+MijnOverheid Berichtenbox Leveranciersportaal,,Cloud,,
+MijnOverheid Lopende zaken,,Cloud,,
+MijnOverheid.nl,,Cloud,,
+Milieuzone,,Cloud,,
+Mitel Contact Center Client LDN,3 - Standaard,On-premise,,CCC ALG 9.8.2 NL 01
+Mitel Ignite LDN,2 - Proceskritisch,Cloud,,MiCollab-Ignite ALG 1.0 NL 01
+Mitel MiCollab LDN,2 - Proceskritisch,Cloud,,MiCollab ALG 10.1 NL 01
+MobiMaestro-PAGE LDN,3 - Standaard,Cloud,,
+Module Autorisatiebeheer LDN,2 - Proceskritisch,On-premise,sdvpvwapp158; sdvtvwapp158; sdvavwapp158,
+Module Autorisatiebeheer LDP,2 - Proceskritisch,On-premise,sdvpvwapp158; sdvtvwapp158; sdvavwapp158,PortaalBZ_Autorisatiebeheer LDP 1.0 NL 01; PortaalBZ_AutorisatiebeheerTest LDP 1.0 NL 01
+Module Autorisatiebeheer OEG,2 - Proceskritisch,On-premise,sdvpvwapp158; sdvtvwapp158; sdvavwapp158,PortaalBZ_AutorisatiebeheerTest OEG 1.0 NL 01; PortaalBZ_Autorisatiebeheer OEG 1.0 NL 01
+Module Autorisatiebeheer ZTW,2 - Proceskritisch,On-premise,sdvpvwapp158; sdvtvwapp158; sdvavwapp158,PortaalBZ_AutorisatiebeheerTest ZTW 1.0 NL 01; PortaalBZ_Autorisatiebeheer ZTW 1.0 NL 01
+Momice LDN,3 - Standaard,Cloud,,
+Monitoring Plus LDN,2 - Proceskritisch,On-premise,,
+Monumentenregister,,Cloud,,
+Move3 LDN,3 - Standaard,On-premise,,Move3 LDN 4.5.0 EN 01
+MplusKASSA LDN,2 - Proceskritisch,Cloud,,
+Multipress LDN,2 - Proceskritisch,On-premise,sdvpvwapp144,MultiPress-Client LDN 6.0.0 NL 01
+NLCS Bibliotheek LDN,2 - Proceskritisch,On-premise,,NLCS-InfraCAD ALG 5.0.3 NL 01
+NVDA LDP,2 - Proceskritisch,On-premise,,NVDA ALG 2023.2 NL 01
+Naris LDN,3 - Standaard,Cloud,,Naris LDN 1.0 NL 01
+Nationaal Parkeer Register LDN,1 - Bedrijfskritisch,Cloud,,NPR-Beheer LDN 1.0 NL 01; NPR-AcceptatieBeroepenBezwaar LDN 1.0 NL 01; NPR-AcceptatieBeheer LDN 1.0 NL 01
+Netwerkschijven LDN,,On-premise,,
+Neuron BRK Monitor LDN,3 - Standaard,On-premise,,
+Neuron ESB HR Dataservice ++ LDN,3 - Standaard,On-premise,,
+Neuron ESB LDN,2 - Proceskritisch,On-premise,ldnpvwapp097; ldntvwapp097,
+Neuron Gegevensmagazijn LDN,2 - Proceskritisch,On-premise,,
+Neuron Stelsel Registratie BAG LDN,2 - Proceskritisch,On-premise,ldnpvwapp123; ldntvwapp123,NeuronStelselRegistratie-Prod LDN 25.2 NL 01; NeuronStelselRegistratie-Test LDN 26.1 NL 01
+Neuron Stelsel Registratie Connector LDN,3 - Standaard,On-premise,,
+Newbies Pro LDN,3 - Standaard,Cloud,,
+Newwaste OEG,3 - Standaard,,,
+Notepad++ LDN,4 - Niet kritisch,On-premise,,Notepadplusplus ALG 6.5.1 NL 01
+O-Prognose LDN,3 - Standaard,Cloud,,
+O-Prognose LDP,3 - Standaard,Cloud,,
+OBI4wan ELO LDN,3 - Standaard,,,
+OBI4wan LDN,2 - Proceskritisch,Cloud,,
+OLO - OmgevingsLoket Online,3 - Standaard,,,
+OOV Alert,3 - Standaard,,,
+OPP - Overheidspublicatie Platform,,,,
+OSV2020 LDN,3 - Standaard,,,
+Octopus AWB LDN,3 - Standaard,,,
+Omgeving Beheer ZTW,3 - Standaard,On-premise,,Omgeving Beheer ZTW 1.0 NL 01
+Ondernemersplein.nl,,,,
+Ondernemingsdossier,,,,
+Open Formulieren LDN,2 - Proceskritisch,Cloud,,
+OpenRefine LDN,3 - Standaard,On-premise,,OpenRefine ALG 3.9.5 NL 01
+OpenTunnel LDN,1 - Bedrijfskritisch,On-premise,sdvtvlesb001; sdvtvlesb003; sdvpvles003; sdvpvles004; sdvpvles005; sdvtvles005,
+OpenWOO.app LDN,3 - Standaard,Cloud,,
+Oracle SQL Developer LDN,4 - Niet kritisch,On-premise,,SQL-Developer ALG 24.3 EN 01
+Oracle Wallet Manager LDN,3 - Standaard,On-premise,,
+Oracle Workflow Builder LDN,3 - Standaard,On-premise,sdvpvwapp151; sdvtvwapp151,
+Orchestra Enterprise LDN,1 - Bedrijfskritisch,Cloud,,Orchestra LDN 1.0 NL 01
+Oribi Id-Burger LDN,1 - Bedrijfskritisch,On-premise,,RNI_Prod LDN 1.0 NL 01; RNI_Test LDN 1.0 NL 01; IDBurger LDN 1.0 NL 01
+Oribi Id-Burger LDP,1 - Bedrijfskritisch,On-premise,,
+Oribi Id-Burger OEG,1 - Bedrijfskritisch,On-premise,,IDBurger OEG 1.0 NL 01
+Oribi Id-Burger ZTW,1 - Bedrijfskritisch,On-premise,,IDBurger ZTW 1.0 NL 01
+Otto LDN,3 - Standaard,On-premise,,Otto LDN 4.0 NL 01
+Outlook 2010 LDN,3 - Standaard,On-premise,,
+Overheid.nl,,,,
+Overheidsservicebus.com LDN,2 - Proceskritisch,Cloud,,
+PAL21 LDN,2 - Proceskritisch,Cloud,,
+PDFsam Basic LDN,4 - Niet kritisch,On-premise,,PDF SAM Basic ALG 4.2.12 NL 01
+PDOK - Publieke dienstverlening op de kaart,,,,
+PGAx LDN,3 - Standaard,,,
+PIDmanager LDN,3 - Standaard,,,
+PIVA - Persoonsinformatie-voorziening Nederlandse Antillen en Aruba,,,,
+PRISMAprepare LDN,3 - Standaard,On-premise,ldnpvwlic001,ILE LDN 6.1 EN 01
+PRISMAproduce Tech LDN,3 - Standaard,,,
+PRTG Software LDN,3 - Standaard,On-premise,sdvpvwmon105; sdvpvwmon106,
+Pardon Salaris LDN,3 - Standaard,Cloud,,
+Park-Spot Reserveren LDN,3 - Standaard,Cloud,,
+Parkbase LDN,3 - Standaard,Cloud,,
+Parkeermonitor LDN,3 - Standaard,,,
+Parkeren Plus LDN,3 - Standaard,Cloud,,
+Password Safe LDN,3 - Standaard,On-premise,,PassWordSafe ALG 3.42 NL 01
+Passwordstate LDN,3 - Standaard,On-premise,sdvpvwapp155; sdvtvwapp155,PasswordState SPT 1.0 NL 01
+Pentaho Data Integration LDN,3 - Standaard,,,
+PerfectView Fietsendepot LDN,3 - Standaard,Cloud,,
+Planon LDN,2 - Proceskritisch,Cloud,,
+Polisadministratie (doorontwikkeling naar BLAU opgeschort),,,,
+Polpo LDN,3 - Standaard,,,
+PolyDoc LDN,2 - Proceskritisch,On-premise,sdvovwapp003,Polydoc LDN 6.0 NL 01; PolydocTest LDN 1.0 NL 01; Polydoc-Cloud ALG 1.0 NL 01; Polydoc-Metric LDN 1.0 NL 01
+PowerBrowser LDN,1 - Bedrijfskritisch,Cloud,,PowerBrowserTest ALG 1.0 NL 01; PowerBrowser ALG 1.0 NL 01
+PowerMobiel LDN,2 - Proceskritisch,Cloud,,
+Powerall LDN,2 - Proceskritisch,On-premise,sdvpvwapp161; sdvtvwapp161; sdvavwapp161,Powerall-ACC LDN 324 NL 01; Powerall LDN 324 NL 01
+Preservica E-Depot LDN,2 - Proceskritisch,,,
+Prezi LDN,3 - Standaard,Cloud,,PreziOnline ALG 1.0 EN 01
+Priva GBS monitoring LDN,3 - Standaard,On-premise,,
+Processen Verbaal,3 - Standaard,Cloud,,
+Procura Verkiezingen LDP,3 - Standaard,,,
+Procura Verkiezingen OEG,3 - Standaard,,,
+Procura Verkiezingen ZTW,3 - Standaard,,,
+Prognosemodel Gemeenten LDN,3 - Standaard,On-premise,,
+Project 2010 LDN,3 - Standaard,On-premise,,
+ProjectComfort LDN,3 - Standaard,,,
+Publieke Informatie Makelaar,3 - Standaard,Cloud,,
+Publiosa LDN,3 - Standaard,Cloud,,Publiosa LDN 1.0 NL 01
+Purfaction Spendanalyse LDN,3 - Standaard,Cloud,,
+Q3 Onderhoudsbeheersysteem LDN,3 - Standaard,Cloud,,Onderhouds Beheer Systeem LDN 3.2.19 NL 01
+Qgis LDN,3 - Standaard,On-premise,,QgisDesktop ALG 3.42 NL 01; QgisDesktop ALG 3.42.3 NL 01
+Qonline LDN,2 - Proceskritisch,Cloud,,
+Qualigraf LDN,2 - Proceskritisch,,,
+Qualigraf LDP,2 - Proceskritisch,,,
+Qualigraf OEG,2 - Proceskritisch,,,
+Qualigraf ZTW,2 - Proceskritisch,,,
+Quentic LDN,3 - Standaard,Cloud,,
+RAAS Aanvraagstation LDN,1 - Bedrijfskritisch,On-premise,89S6WS2,Raas Aanvraagstation LDN 01 NL 01
+RAAS Aanvraagstation LDP,1 - Bedrijfskritisch,On-premise,CG9K1T2,Raas Aanvraagstation LDP 1.0 NL 01
+RAAS Aanvraagstation OEG,1 - Bedrijfskritisch,On-premise,7SQ6WS2,Raas Aanvraagstation OEG 1.0 NL 01
+RAAS Aanvraagstation ZTW,1 - Bedrijfskritisch,On-premise,9MGK1T2,Raas Aanvraagstation ZTW 1.0 NL 01
+RAP HRM LDN,3 - Standaard,Cloud,,
+RAP Medewerkers LDN,3 - Standaard,Cloud,,
+RDCMan LDN,3 - Standaard,On-premise,,RDC_Manager ALG 2.81 NL 01
+RIS LDN,3 - Standaard,,,
+RNI - Registratie Niet Ingezetenen,3 - Standaard,,,
+RStudio Desktop LDN,3 - Standaard,On-premise,,R Studio ALG 23.12 NL 01; R-For-Windows ALG 4.3.2 NL 01
+RVV LDN,3 - Standaard,Cloud,,
+Rada Outlook LDN,3 - Standaard,On-premise,,RADA-Universal-Modbus LDN 1.9.0 NL 01
+Rapasso LDN,3 - Standaard,Cloud,,
+ReCreaTeX LDN,3 - Standaard,Cloud,,
+ReadSpeaker OEG,3 - Standaard,Cloud,,
+Rechtsorde LDN,3 - Standaard,Cloud,,
+Regeldienst Vragenbomen LDN,3 - Standaard,,,
+Regelhulp.nl,3 - Standaard,,,
+Register Externe Veiligheid (REV),,,,
+Remote Beheer LDN,3 - Standaard,On-premise,,Remotebeheer_Functbhr_x64 ALG 1.0 NL 01
+Report Builder LDN,3 - Standaard,Cloud,,Report-Builder LDN 3.0 EN 01
+Repro Desk Studio LDN,3 - Standaard,On-premise,sdvpvwapp152; sdvtvwapp152,Reprodesk ALG 1.0 NL 01
+Ricoh Theta Viewer LDN,4 - Niet kritisch,On-premise,,Theta LDN 3.15 NL 01
+Risicokaart.nl,4 - Niet kritisch,,,
+Risicoregister gevaarlijke stoffen,4 - Niet kritisch,,,
+Roosterplanning LDN,2 - Proceskritisch,Cloud,,
+Ruimtelijke plannen,3 - Standaard,,,
+Rx.Base LDN,2 - Proceskritisch,,,
+SAP S/4HANA LDN,1 - Bedrijfskritisch,Cloud,,SAP 4 HANA ALG 1.0 NL 01
+SEM Portfoliomanagement LDN,3 - Standaard,,,
+SEP E-Learning Verkiezingen LDN,3 - Standaard,,,
+SPSS GBA Statistiek LDN,3 - Standaard,On-premise,,SPSS-GBA LDN 29 EN 01
+SPSS LDN,3 - Standaard,On-premise,ldnpvwlic001,
+SQL Plus LDN,3 - Standaard,On-premise,,Sqlplus BAS 11.2.0 EN 01
+SQL Tools LDN,3 - Standaard,On-premise,,SQLtools ALG 1.7 NL 01
+SQLite Expert LDN,4 - Niet kritisch,On-premise,,SQLiteExpertProfessional LDN 4.0 EN 01
+STIHL Diagnostic Software LDN,3 - Standaard,On-premise,,Diagnosis-Software LDN 2.0 NL 01
+SVB PGB Portaal,,Cloud,,
+SVB Portaal,,,,
+SVB-BGT services en portaal,3 - Standaard,,,
+Salto ProAccess Space LDN,2 - Proceskritisch,On-premise,sdvpvwapp148,Salto LDN 1.0 NL 01; SaltoLocalIOBridge LDN 1.3.0 NL 01; SaltoLocalIOBridge LDN 1.3.1 NL 01; ProAcces LDN 6.10.2.2 NL 01
+Samenwerkende Catalogi verwijsregister,4 - Niet kritisch,,,
+Schuldenknooppunt,,Cloud,,
+SelfGuide LDN,3 - Standaard,Cloud,,SelfGuide-Recorder LDN 0.152 NL 01; SelfGuide-Recorder LDN 1.17 NL 01
+ServiceNow,,,,
+Shiftbase LDN,3 - Standaard,Cloud,,
+Sidcon Perscontainers LDN,3 - Standaard,,,
+Signaalpunt Tegen eenzaamheid LDN,3 - Standaard,Cloud,,
+Signalen LDN,2 - Proceskritisch,Cloud,,Signalen ALG 1.0 NL 01
+Signalen LDP,2 - Proceskritisch,Cloud,,Signalen ALG 1.0 NL 01
+Signalen ZTW,2 - Proceskritisch,,,
+Signicat eHerkenningsmakelaar LDN,3 - Standaard,,,
+SketchUp Pro LDN,3 - Standaard,On-premise,,Twilight Render ALG 2.17 EN 01; SKETCHUP-PRO ALG 2024 EN 01
+Slack LDN,3 - Standaard,On-premise,,Slack ALG 4.39.89 NL 01
+Sleutelpas LDN,3 - Standaard,Cloud,,
+Smart CX LDP,1 - Bedrijfskritisch,Cloud,,Smart CJM LDP 01 NL 01
+Smart CX OEG,1 - Bedrijfskritisch,Cloud,,Smart CJM OEG 01 NL 01
+Sobek Suite LDN,3 - Standaard,On-premise,,Sobek LDN 2.15.003 EN 01; License Manager LDN 7.08 NL 01
+Sociale Verzekeringsbank portaal,3 - Standaard,,,
+Softwarecatalogus.nl,4 - Niet kritisch,,,
+SoleilView LDN,4 - Niet kritisch,On-premise,,SoleilView LDN 1.0 NL 01
+Sparkleflow,3 - Standaard,On-premise,,Sparkleflow SPT 1.0 NL 01
+Sparx Enterprise Architect LDN,3 - Standaard,On-premise,sdvtvwapp110,
+Spatial Tool LDN,3 - Standaard,On-premise,,Spatialtool LDN 8.0 NL 01
+Speakap LDN,3 - Standaard,Cloud,,
+Sportpas.nl,3 - Standaard,,,
+Startpunt Geldzaken LDN,3 - Standaard,Cloud,,
+Stembureaumanager LDN,3 - Standaard,,,
+Stembureaumanager LDP,3 - Standaard,,,
+Stichting Netwerk Gerechtsdeurwaarders,3 - Standaard,,,
+Street Smart LDN,3 - Standaard,Cloud,,
+Strodio LDN,3 - Standaard,On-premise,,Strodio LDN 4.3.0 NL 01
+Studytube Leerplatform LDN,3 - Standaard,Cloud,,LMS ALG 1.0 NL 01
+Sumatra LDN,3 - Standaard,Cloud,,Sumatra LDN 1.0 NL 01
+SuperNova LDN,4 - Niet kritisch,On-premise,,SuperNova LDN 20.02 NL 01
+Survalyzer LDN,3 - Standaard,,,
+SurveyMonkey LDN,3 - Standaard,,,
+Suwinet Inburgeringsportaal,2 - Proceskritisch,,,
+Suwinet Inkijk (DKD),2 - Proceskritisch,,,
+Swing Mosaic LDN,3 - Standaard,Cloud,,
+Swing Mosaic LDP,3 - Standaard,Cloud,,
+SynergieNL LDN,3 - Standaard,Cloud,,
+TAC I/NET Notifier LDN,3 - Standaard,On-premise,,TACINETNotifier LDN 1.0.1 EN 01
+TIM Enterprise LDN,3 - Standaard,Cloud,,TimEnterpriseTest ALG 2024.2 NL 01; TimEnterprise ALG 2024.2 NL 01; Tim-Saas ALG 1.0 NL 01
+TMV - GBA Terugmeldvoorziening,3 - Standaard,,,
+TOPdesk LDN,1 - Bedrijfskritisch,Cloud,,TopdeskEnterprise SPT 1.0 NL 01
+TVS-COA LDN,3 - Standaard,Cloud,,
+Tabula LDN,3 - Standaard,On-premise,sdvtvwapp121,Tabula ALG 1.3.57.2 NL 01
+Tangelo LDN,3 - Standaard,Cloud,sdvpvwapp137,XML-documentsTest ALG 1.0 NL 01; XML-documents ALG 1.0 NL 01
+TeamViewer Tensor LDN,3 - Standaard,Cloud,,Teamviewer Host ALG 15.72 NL 01; Teamviewer-Full-Client LDN 15.72 NL 01
+Technosoft Rekensoftware LDN,3 - Standaard,On-premise,,Rekensoftware LDN 6.8.x NL 01
+Telecontrol GBS LDN,3 - Standaard,Cloud,,
+Templafy LDN,3 - Standaard,Cloud,,TemplafyDesktop ALG 1.0 NL 01
+TenderNed,,,,
+Tenderbot LDN,3 - Standaard,Cloud,,
+Tesorion MDR LDN,1 - Bedrijfskritisch,,,
+Testersuite Premium LDN,3 - Standaard,Cloud,,
+Text on Tap LDN,3 - Standaard,On-premise,,
+Textmetrics LDN,3 - Standaard,On-premise,,
+The Museum System LDN,3 - Standaard,,,
+Total Commander LDN,3 - Standaard,On-premise,,TotalCommander SPT 8.01 NL 01
+TotalLink LDN,3 - Standaard,Cloud,,Totallink LDN 1.0 NL 01
+Track & Trace LDN,3 - Standaard,Cloud,,
+Track & Trace LDP,3 - Standaard,,,
+Traka LDN,3 - Standaard,Cloud,,
+Travelcard LDN,3 - Standaard,Cloud,,
+Trello LDN,3 - Standaard,Cloud,,Trello ALG 2.13 NL 01
+Trimble Access LDN,3 - Standaard,On-premise,,
+TrustLink Enterprise LDN,3 - Standaard,Cloud,,Digicert-Desktop-Client ALG 3.2.1 NL 01; Digicert-Desktop-Client ALG 3.3.1 NL 01; SafeNet-Authentication-Client-R1 LDN 10.9 NL 01
+Twitter,,,,
+Typo3 LDP,1 - Bedrijfskritisch,Cloud,,
+Typo3 OEG,2 - Proceskritisch,Cloud,,
+Typo3 ZTW,1 - Bedrijfskritisch,Cloud,,
+UWV Portaal,,,,
+Ubeeo ATS LDN,3 - Standaard,Cloud,,
+UiPath RPA LDN,3 - Standaard,On-premise,ldnovwapp122; ldnpvwapp122,
+UitvaartSuite,3 - Standaard,,,
+Ultimate Screen Access LDP,2 - Proceskritisch,On-premise,,
+Universal Viewer LDN,3 - Standaard,On-premise,,
+Uniwin LDN,3 - Standaard,,,
+VBS Online OEG,2 - Proceskritisch,Cloud,,
+VConsyst Dynamics LDN,2 - Proceskritisch,,,
+VIA Signaal Ongevallen LDN,4 - Niet kritisch,Cloud,,
+VIA Statistiek LDN,4 - Niet kritisch,Cloud,,
+VIND Burgerzaken LDN,4 - Niet kritisch,Cloud,,
+VIND Burgerzaken OEG,4 - Niet kritisch,Cloud,,
+VIND Informatiemanagement LDP,3 - Standaard,,,
+VIND Informatiemanagement OEG,4 - Niet kritisch,,,
+VIND Informatiemanagement ZTW,2 - Proceskritisch,,,
+VISH,,,,
+VLC Media Player LDN,3 - Standaard,On-premise,,VLC-Mediaplayer ALG 3.0.20 NL 01
+VNK Statica LDN,3 - Standaard,On-premise,,Statica LDN 5.0 NL 01
+VTLB Calculator LDN,3 - Standaard,On-premise,,VTLBCalculator ALG 5.0.1 NL 01
+ValidSign LDN,2 - Proceskritisch,Cloud,,ValidSign ALG 1.0 NL 01
+Vastgoed Leiden LDN,3 - Standaard,,,
+Verloren of Gevonden LDN,2 - Proceskritisch,,,
+Verloren of Gevonden LDP,2 - Proceskritisch,,,
+Verloren of Gevonden OEG,2 - Proceskritisch,,,
+Verloren of Gevonden ZTW,2 - Proceskritisch,,,
+Verwijsindex Jeugd LDN,3 - Standaard,Cloud,,
+ViA Statistiek LDP,4 - Niet kritisch,Cloud,,Viastat LDP 1.0 NL 01
+ViewAll LDN,3 - Standaard,On-premise,,
+Vindsubsidies LDN,3 - Standaard,Cloud,,
+Vissim LDN,3 - Standaard,On-premise,,
+WCare Productencatalogus LDN,3 - Standaard,Cloud,,
+WISeDocs LDN,2 - Proceskritisch,Cloud,,WISedocs LDN 1.0 NL 01
+WIZZR LDN,3 - Standaard,,,
+WMO Monitor CAK LDN,3 - Standaard,Cloud,,
+WMO Monitor CAK OEG,3 - Standaard,Cloud,,WMO-Monitor OEG 1.0 NL 01
+Waarstaatjegemeente.nl,4 - Niet kritisch,,,
+Waste Vision LDP,3 - Standaard,,,
+Wasys LDN,2 - Proceskritisch,Cloud,,
+Webeasy Klimaat LDN,2 - Proceskritisch,,,
+Webportaal Schulddienstverlening LDN,3 - Standaard,Cloud,,
+Wecycle,4 - Niet kritisch,,,
+Welvaarts LDN,3 - Standaard,Cloud,,
+Welzorg WMO Portaal,3 - Standaard,Cloud,,
+Werk.nl,3 - Standaard,,,
+Werkgeversinstrumentgids,,,,
+Werkstap LDN,3 - Standaard,Cloud,,
+Werktools - Toezichthoudersapp LDN,3 - Standaard,,,
+Werkzoekendeninstrumentgids,,,,
+WhatsApp LDN,3 - Standaard,Cloud,,WhatsApp ALG 2.2401.5.0 NL 01
+WiBu Codemeter LDN,3 - Standaard,On-premise,,Codemeter-Control-Center ALG 8.4.0 NL 01
+WinSCP LDN,4 - Niet kritisch,On-premise,,WinSCP ALG 6.5.4 EN 01
+Wish LDP,3 - Standaard,,,
+Wkpb landelijke registratie,3 - Standaard,,,
+WooPortaal LDN,3 - Standaard,Cloud,,
+WordPress OWC LDN,1 - Bedrijfskritisch,,,
+Workspace Control LDN,2 - Proceskritisch,,,
+XDM LDN,2 - Proceskritisch,Cloud,,
+XDM LDP,2 - Proceskritisch,Cloud,,
+XDM OEG,2 - Proceskritisch,Cloud,,
+XDM ZTW,2 - Proceskritisch,Cloud,,
+Xsitu LDN,3 - Standaard,,,
+YAVC LDN,3 - Standaard,Cloud,,Yavc LDN 4.1.2 NL 01
+Yammer LDN,4 - Niet kritisch,Cloud,,
+YouForce IDA LDN,1 - Bedrijfskritisch,Cloud,,YouForcePersoneel BAS 1.0 NL 01; YouforceProfessionalHRM SPT 1.0 NL 01
+Youforce DZB LDN,2 - Proceskritisch,Cloud,,YouForceHRprofessionalsDZB LDN 1.0 NL 01
+Zebra Designer LDN,3 - Standaard,On-premise,,Zebra Designer ALG 2.2.3 NL 01
+Zepcam Connect LDN,3 - Standaard,,,
+Zero Emissieloket LDN,3 - Standaard,Cloud,,Zero Emissieloket Backoffice LDN 1.0 NL 01
+Zivver Office Plugin LDN,3 - Standaard,Cloud,,OfficePlugin ALG 6.14 NL 01
+ZooEasy LDP,3 - Standaard,On-premise,,SKBN ZooEasy LDP 11.03 NL 01
+Zorg & Zekerheid Zakelijk,4 - Niet kritisch,Cloud,,Zakelijk OEG 1.0 NL 01
+Zorgdomein,4 - Niet kritisch,,,
+ZyLAB One eDiscovery LDN,3 - Standaard,Cloud,,
+dg DIALOG BGT LDN,2 - Proceskritisch,On-premise,ldnpvwapp111; ldntvwapp111; sdvpvwapp117; sdvtvwapp117,DGDialog LDN 8.0.3 NL 01
+eConnect LDN,2 - Proceskritisch,Cloud,,
+eDiensten Burgerzaken LDN,1 - Bedrijfskritisch,Cloud,,
+eDiensten Burgerzaken LDP,1 - Bedrijfskritisch,Cloud,,
+eDiensten Burgerzaken Module Inzicht LDN,2 - Proceskritisch,Cloud,,
+eDiensten Burgerzaken Module Inzicht LDP,2 - Proceskritisch,Cloud,,
+eDiensten Burgerzaken Module Inzicht OEG,2 - Proceskritisch,Cloud,,
+eDiensten Burgerzaken OEG,1 - Bedrijfskritisch,Cloud,,
+eDiensten Burgerzaken ZTW,1 - Bedrijfskritisch,Cloud,,
+gemmaonline.nl,,Cloud,,
+i-Marina Plus LDN,3 - Standaard,Cloud,,
+i-Navigator LDP,3 - Standaard,Cloud,,iNavigator LDP 1.0 NL 01; I-Navigator-Cloud LDP 1.0 NL 01
+i-Navigator OEG,4 - Niet kritisch,Cloud,,iNavigator OEG 1.0 NL 01; iNavigatorTest OEG 1.0 NL 01; I-Navigator-Cloud OEG 1.0 NL 01
+i-Navigator ZTW,2 - Proceskritisch,Cloud,,iNavigator ZTW 1.0 NL 01; iNavigatorTest ZTW 1.0 NL 01; I-Navigator-Cloud ZTW 1.0 NL 01
+i2 Analyst’s Notebook LDN,3 - Standaard,On-premise,,i2-Analysts-Notebook LDN 9.4.0 EN 01; i2-Analysts-Notebook LDN 10.1 EN 01
+i2 iBase LDN,3 - Standaard,On-premise,ldnpvwapp124; ldntvwapp124; ldnpvwapp125,Ibase LDN 9.1.0 EN 01; Ibase LDN 10.1 EN 01
+iBabs LDN,3 - Standaard,Cloud,,Ibabs ALG 1.0 NL 01; Ibabs ALG 4.10 NL 01
+iLOQ S5 Manager LDN,3 - Standaard,Cloud,,TokenP55sStuurprogramma LDN 1.0 NL 01; iLOQManager LDN 8.0 NL 01
+iParticipatie LDN,1 - Bedrijfskritisch,Cloud,,I-Participatie LDN 1.0 NL 01; I-Participatie LDP 1.0 NL 01
+iSamenleving LDN,1 - Bedrijfskritisch,Cloud,,ISamenleving ALG 1.0 NL 01
+iSamenleving OEG,1 - Bedrijfskritisch,Cloud,,ISamenleving ALG 1.0 NL 01
+iSpring Suite LDN,3 - Standaard,Cloud,,ispring LDN 11.02 NL 01
+iW Enterprise Management Console LDN,3 - Standaard,On-premise,sdvpvwapp160,
+phpIPAM LDN,3 - Standaard,Cloud,,
+uniFLOW LDN,3 - Standaard,On-premise,sdvpvwprn007; sdvpvwprn008; sdvtvwprn008,
+uniFLOW Online LDN,3 - Standaard,On-premise,sdvpvwprn007,
+vdPCADdesign LDN,3 - Standaard,On-premise,,PCADdesign LDN 1.1.0.10 NL 01; PCADdesign LDN 1.1.0.12 NL 01
+xxllnc Anonimiseren LDN,3 - Standaard,Cloud,,Anonimiseren ALG 1.0 NL 01
+xxllnc Bevolkingsprognose LDN,3 - Standaard,On-premise,,GBPRO LDN 2.40 NL 01
+xxllnc Formulieren LDN,1 - Bedrijfskritisch,Cloud,,
+xxllnc Leerlingbegeleiding LDN,2 - Proceskritisch,Cloud,,
+xxllnc Leerlingenvervoer LDN,2 - Proceskritisch,Cloud,,
+xxllnc Omgevingsdocumenten LDN,2 - Proceskritisch,,,
+xxllnc Onderwijsloket LDN,3 - Standaard,,,
+xxllnc Onderwijsloket OEG,3 - Standaard,,,
+xxllnc Toepasbare regels LDN,2 - Proceskritisch,,,
+xxllnc Vroegsignalering LDN,3 - Standaard,Cloud,,
+xxllnc Vroegsignalering OEG,3 - Standaard,Cloud,,
+zoek.openraadsinformatie.nl,,,,

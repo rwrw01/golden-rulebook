@@ -1,0 +1,621 @@
+{
+  "timestamp": "2026-03-09T18:19:32.285Z",
+  "total_objects": 9441,
+  "object_types": [
+    {
+      "template_id": "531721d799ffecf9b5c8b1ad",
+      "name": "Bedrijfsproces",
+      "count": 1576
+    },
+    {
+      "template_id": "5a783e5bbbe61e0c4860e747",
+      "name": "Technologie-interface",
+      "count": 1417
+    },
+    {
+      "template_id": "53ce29f38ffdac058cff1ced",
+      "name": "Bedrijfsobject",
+      "count": 1178
+    },
+    {
+      "template_id": "532fffd0b41281c17ce263b9",
+      "name": "Applicatie",
+      "count": 803
+    },
+    {
+      "template_id": "5a781736bbe61e0c485f8e8a",
+      "name": "Package",
+      "count": 619
+    },
+    {
+      "template_id": "6954f849eb75672476bc0648",
+      "name": "Applicatieservice",
+      "count": 544
+    },
+    {
+      "template_id": "59eddb38ec9d2656dc75a9f0",
+      "name": "Standaard",
+      "count": 495
+    },
+    {
+      "template_id": "5852ada13bf3ff08c475d1fd",
+      "name": "Bedrijfsfunctie",
+      "count": 329
+    },
+    {
+      "template_id": "5a1ecc07552b130a54b79631",
+      "name": "Gegevensobject",
+      "count": 327
+    },
+    {
+      "template_id": "57c3ee8d3e3e8e06083d0db1",
+      "name": "Referentiecomponent",
+      "count": 280
+    },
+    {
+      "template_id": "532ff9dbb41281c17ce263b2",
+      "name": "Actor",
+      "count": 261
+    },
+    {
+      "template_id": "63ada23392096e3057d872bd",
+      "name": "Selectielijst",
+      "count": 231
+    },
+    {
+      "template_id": "532fff7eb41281c17ce263b6",
+      "name": "Applicatie-interface",
+      "count": 228
+    },
+    {
+      "template_id": "5a781643bbe61e0c485f8d41",
+      "name": "Technologieservice",
+      "count": 227
+    },
+    {
+      "template_id": "59c92db68293276fc0cb4aff",
+      "name": "Implicatie",
+      "count": 185
+    },
+    {
+      "template_id": "61b76634ad3fbd0b08644d4d",
+      "name": "Database",
+      "count": 131
+    },
+    {
+      "template_id": "59c92d468293276fc0cb4570",
+      "name": "Principe",
+      "count": 131
+    },
+    {
+      "template_id": "5faa8d3aad3fbd177cd7a842",
+      "name": "Node",
+      "count": 123
+    },
+    {
+      "template_id": "610a7682ad3fc20e30dd2cba",
+      "name": "Netwerk",
+      "count": 106
+    },
+    {
+      "template_id": "5d024d8e0c0ba649d4c0cfeb",
+      "name": "Technologiefunctie",
+      "count": 103
+    },
+    {
+      "template_id": "5f917a72145c106fa002aed3",
+      "name": "Apparaat",
+      "count": 86
+    },
+    {
+      "template_id": "56eaa23a8293274158f2c5cd",
+      "name": "Project",
+      "count": 69
+    },
+    {
+      "template_id": "5ebd0aebc572da66245eca13",
+      "name": "Bedrijfsservice",
+      "count": 68
+    },
+    {
+      "template_id": "59c92c5f8293276fc0cb39fb",
+      "name": "Analyse",
+      "count": 67
+    },
+    {
+      "template_id": "5c49b2ddcf150900b4b80593",
+      "name": "Softwarecomponent",
+      "count": 62
+    },
+    {
+      "template_id": "5ab8c0fa552b130aacdd5440",
+      "name": "Netwerk (oud)",
+      "count": 62
+    },
+    {
+      "template_id": "59dcb397ec9d2628f8ce1a3b",
+      "name": "Doel",
+      "count": 58
+    },
+    {
+      "template_id": "610a76b0ad3fc0094ca7eca0",
+      "name": "Netwerk Device",
+      "count": 43
+    },
+    {
+      "template_id": "532ffa70b41281c17ce263b5",
+      "name": "Locatie",
+      "count": 41
+    },
+    {
+      "template_id": "686d2a5c357b9fcc68243bc2",
+      "name": "Groep",
+      "count": 41
+    },
+    {
+      "template_id": "5f9aebe8ad3fc213ecfca3a6",
+      "name": "Bedrijfsrol",
+      "count": 38
+    },
+    {
+      "template_id": "532fffe4b41281c17ce263ba",
+      "name": "Server/Node (oud)",
+      "count": 35
+    },
+    {
+      "template_id": "61a0b614ad3fbd083c45fec6",
+      "name": "Plateau",
+      "count": 20
+    },
+    {
+      "template_id": "58e227c43db9280d780522fa",
+      "name": "Domein",
+      "count": 15
+    },
+    {
+      "template_id": "632074b2405588a91224710d",
+      "name": "Activiteit",
+      "count": 1
+    }
+  ],
+  "sampled_top10": [
+    {
+      "type_name": "Bedrijfsproces",
+      "template_id": "531721d799ffecf9b5c8b1ad",
+      "object_id": "65e1eda2bc6f6a10b07382de",
+      "object_title": "(BP) O1 - Administreren",
+      "relation_count": 4
+    },
+    {
+      "type_name": "Technologie-interface",
+      "template_id": "5a783e5bbbe61e0c4860e747",
+      "object_id": "5b0c030101a9180ba45042e2",
+      "object_title": "(c) Technologie-interface",
+      "relation_count": 7
+    },
+    {
+      "type_name": "Bedrijfsobject",
+      "template_id": "53ce29f38ffdac058cff1ced",
+      "object_id": "5c347bcdc572da22ec9bd772",
+      "object_title": "(c) Archiefbescheiden",
+      "relation_count": 2
+    },
+    {
+      "type_name": "Applicatie",
+      "template_id": "532fffd0b41281c17ce263b9",
+      "object_id": "5b05182dd9c64009c413aa57",
+      "object_title": "(c) Applicatie",
+      "relation_count": 22
+    },
+    {
+      "type_name": "Package",
+      "template_id": "5a781736bbe61e0c485f8e8a",
+      "object_id": "68e3795ff96bffb11a58ea52",
+      "object_title": ".NET-Runtime ALG 9.0.9 EN 01",
+      "relation_count": 0
+    },
+    {
+      "type_name": "Applicatieservice",
+      "template_id": "6954f849eb75672476bc0648",
+      "object_id": "695bdd8d8d0458934a3ccfac",
+      "object_title": "(c) Applicatieservice",
+      "relation_count": 3
+    },
+    {
+      "type_name": "Standaard",
+      "template_id": "59eddb38ec9d2656dc75a9f0",
+      "object_id": "5c405140cf15091a687cad31",
+      "object_title": "(c) Standaard",
+      "relation_count": 9
+    },
+    {
+      "type_name": "Bedrijfsfunctie",
+      "template_id": "5852ada13bf3ff08c475d1fd",
+      "object_id": "5c4b0664cf150900b4c6fbb5",
+      "object_title": "(c) Bedrijfsfunctie",
+      "relation_count": 5
+    },
+    {
+      "type_name": "Gegevensobject",
+      "template_id": "5a1ecc07552b130a54b79631",
+      "object_id": "5a1ee3cc552b130a54b8ed69",
+      "object_title": "(BR) BAG gegevens",
+      "relation_count": 10
+    },
+    {
+      "type_name": "Referentiecomponent",
+      "template_id": "57c3ee8d3e3e8e06083d0db1",
+      "object_id": "5b4f411468dabd0fe40ca30c",
+      "object_title": "(c) Referentiecomponent",
+      "relation_count": 10
+    }
+  ],
+  "unique_relationship_patterns": [
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Activiteit"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "wordt gebruikt door",
+      "relationship_type": "usedby",
+      "target_type": "Actor"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "onderdeel van groep",
+      "relationship_type": "aggregation",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "is onderdeel van",
+      "relationship_type": "composition",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "zendt uitvoer naar",
+      "relationship_type": "flow",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "wordt gebruikt door",
+      "relationship_type": "usedby",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "is samengesteld uit",
+      "relationship_type": "composition",
+      "target_type": "Applicatie-interface"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "maakt gebruik van",
+      "relationship_type": "usedby",
+      "target_type": "Applicatie-interface"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "realiseert",
+      "relationship_type": "realization",
+      "target_type": "Applicatieservice"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "wordt gebruikt door",
+      "relationship_type": "usedby",
+      "target_type": "Bedrijfsproces"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "benadert",
+      "relationship_type": "access",
+      "target_type": "Database"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Domein"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "benadert",
+      "relationship_type": "access",
+      "target_type": "Gegevensobject"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "heeft toekenning van",
+      "relationship_type": "assignment",
+      "target_type": "Locatie"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Node"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Package"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Project"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "specialiseert",
+      "relationship_type": "specialization",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Applicatie",
+      "relationship_name": "maakt gebruik van",
+      "relationship_type": "usedby",
+      "target_type": "Technologieservice"
+    },
+    {
+      "source_type": "Applicatieservice",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Applicatieservice",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Applicatieservice",
+      "relationship_name": "wordt gebruikt door",
+      "relationship_type": "usedby",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Bedrijfsfunctie",
+      "relationship_name": "is onderdeel van groep",
+      "relationship_type": "aggregation",
+      "target_type": "Bedrijfsfunctie"
+    },
+    {
+      "source_type": "Bedrijfsfunctie",
+      "relationship_name": "benadert",
+      "relationship_type": "access",
+      "target_type": "Bedrijfsobject"
+    },
+    {
+      "source_type": "Bedrijfsfunctie",
+      "relationship_name": "groepeert",
+      "relationship_type": "aggregation",
+      "target_type": "Bedrijfsproces"
+    },
+    {
+      "source_type": "Bedrijfsfunctie",
+      "relationship_name": "heeft toekenning van",
+      "relationship_type": "assignment",
+      "target_type": "Bedrijfsrol"
+    },
+    {
+      "source_type": "Bedrijfsfunctie",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Bedrijfsobject",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Bedrijfsproces"
+    },
+    {
+      "source_type": "Bedrijfsobject",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Gegevensobject"
+    },
+    {
+      "source_type": "Bedrijfsproces",
+      "relationship_name": "is samengesteld uit",
+      "relationship_type": "composition",
+      "target_type": "Bedrijfsproces"
+    },
+    {
+      "source_type": "Gegevensobject",
+      "relationship_name": "wordt benaderd door",
+      "relationship_type": "access",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Gegevensobject",
+      "relationship_name": "is onderdeel van groep",
+      "relationship_type": "aggregation",
+      "target_type": "Gegevensobject"
+    },
+    {
+      "source_type": "Gegevensobject",
+      "relationship_name": "groepeert",
+      "relationship_type": "aggregation",
+      "target_type": "Gegevensobject"
+    },
+    {
+      "source_type": "Gegevensobject",
+      "relationship_name": "wordt benaderd door",
+      "relationship_type": "access",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "wordt gespecialiseerd door",
+      "relationship_type": "specialization",
+      "target_type": "Applicatie"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "realiseert",
+      "relationship_type": "realization",
+      "target_type": "Applicatieservice"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "maakt gebruik van",
+      "relationship_type": "usedby",
+      "target_type": "Applicatieservice"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Bedrijfsfunctie"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Domein"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "benadert",
+      "relationship_type": "access",
+      "target_type": "Gegevensobject"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "is onderdeel van groep",
+      "relationship_type": "aggregation",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "zendt uitvoer naar",
+      "relationship_type": "flow",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "wordt gebruikt door",
+      "relationship_type": "usedby",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Referentiecomponent",
+      "relationship_name": "realiseert",
+      "relationship_type": "realization",
+      "target_type": "Standaard"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "realiseert",
+      "relationship_type": "realization",
+      "target_type": "Doel"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "specialiseert",
+      "relationship_type": "specialization",
+      "target_type": "Implicatie"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Project"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "wordt gerealiseerd door",
+      "relationship_type": "realization",
+      "target_type": "Referentiecomponent"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "is onderdeel van groep",
+      "relationship_type": "aggregation",
+      "target_type": "Standaard"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Standaard"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "is onderdeel van",
+      "relationship_type": "composition",
+      "target_type": "Standaard"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "beïnvloedt",
+      "relationship_type": "influence",
+      "target_type": "Standaard"
+    },
+    {
+      "source_type": "Standaard",
+      "relationship_name": "specialiseert",
+      "relationship_type": "specialization",
+      "target_type": "Standaard"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "krijgt invoer van",
+      "relationship_type": "flow",
+      "target_type": "Apparaat"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "zendt uitvoer naar",
+      "relationship_type": "flow",
+      "target_type": "Apparaat"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "wordt gebruikt door",
+      "relationship_type": "usedby",
+      "target_type": "Applicatie-interface"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "is onderdeel van",
+      "relationship_type": "composition",
+      "target_type": "Node"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "geassocieerd met",
+      "relationship_type": "association",
+      "target_type": "Technologie-interface"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "zendt uitvoer naar",
+      "relationship_type": "flow",
+      "target_type": "Technologie-interface"
+    },
+    {
+      "source_type": "Technologie-interface",
+      "relationship_name": "is toegekend aan",
+      "relationship_type": "assignment",
+      "target_type": "Technologieservice"
+    }
+  ]
+}

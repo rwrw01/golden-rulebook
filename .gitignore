@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Databases (contain scraped data, never commit)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Screenshots (local testing)
+screenshot-*.png
+
+# Test files (local)
+test-*.ts
+
+# Temp
+*.log
+.claude/settings.local.json

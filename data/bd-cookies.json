@@ -1,0 +1,62 @@
+[
+  {
+    "name": "HPTNT",
+    "value": "leiden",
+    "domain": "bluedolphin.app",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ai_user",
+    "value": "gDkB8zSYJtKlK9L/1OUJyg|2026-03-18T21:18:03.393Z",
+    "domain": "bluedolphin.app",
+    "path": "/",
+    "expires": 1805404683.393783,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-sso:bluedolphin.onmicrosoft.com_0",
+    "value": "m1.788ftuRuYogAlL2S.4f27ufE+KNiFo9shyGYrtQ==.0.3ad/IXc9XSyJ1sbj+XzJO6pldCDRW6M6vUhUIbDdDZ9xfbVAxsKoSs1fqWLAHj2Z9y8guRNXAo9/UD0PIT+u8DP7/1L/gw6S0YaC945HtZMsFcURJgOZJ/5ICeRScnN+qSUP6IFT2FMhmKVyX8uaEGl51TM50VJqtTrwFYbmq4EfvmiVPbQLYECq+0eyvagUNLMwbZgoimx3D51MkM9G5TDhSfACvuHJuydY6pfBqlyopABCX7c4SY0653W5faBWTuooW2sQMeFOov71ahqIe/iAUrKWxESO6rAiTjE8MT5DTfbazpUxN4z8tqUZ0sVkk1El5hyikn3pcbpRORxOW6sUxBIJVeOVFU/n3/HJqsJP7gV9be/eoVaV+UuJNtxThpQqCN8CJfYkWxsEOg4eh7SxFipKExWax5fxAk/YOVA/csttxAla8yvUhzuamuEoQBYR8MQ8wREpyBWz5zSWIxkGEp6mkdUnJUBsJ+hobPkuShJDPz9/",
+    "domain": ".bluedolphin.b2clogin.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ai_session",
+    "value": "DmtXMC8owoSc69lCIy/xth|1773868683754|1773868721685",
+    "domain": "bluedolphin.app",
+    "path": "/",
+    "expires": 1773870521.685954,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "intercom-session-whz92vok",
+    "value": "ZFpCcEIvWWVIdk1uSHVzN2VRZDNySy96dmlBWk9PSG85SlVYczRobjNkc3A2SzFBMkhCemdRSm8wRlFmcWtWcC9ONEJzRS9PWUpZcjJIcVEvWVV2SVNvZ0g1VVJYN1JjT1BLb2ZRT3crZU9NSmd2eUk4eVY1dUFFMVlDOHNma2RqTHI0dHNnZzlUY3k5QXdmUEtxQ2VhcHFGZEhxR1dEY2NPS3MrUHhLaU1aYUNYSkZlejA3M3orMkl2aVRDazlIT3BkcG11dEV1a0lFQzVwYXg1b2N1Zz09LS03cXlpc2VvRDdCSmF2cFFyR3FMSHNnPT0=--f9974744b7d9d50b009e980dd3fd636a6c20d417",
+    "domain": ".bluedolphin.app",
+    "path": "/",
+    "expires": 1774473523,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "intercom-device-id-whz92vok",
+    "value": "70a98ab2-43e1-4111-a44a-1568b4ff2fd1",
+    "domain": ".bluedolphin.app",
+    "path": "/",
+    "expires": 1797198723,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

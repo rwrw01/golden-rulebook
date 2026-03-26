@@ -1,0 +1,3930 @@
+{
+  "withLoc": [
+    {
+      "app": "# Aquaview LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# CreditManager LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# d-Basics LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Decade LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Dynamics NAV LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Jet Reports LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Labelstar Office Lite LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# LTC Wegwerkzaamheden & Evenementen ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Moons Toolbox LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Office 2010 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Petra LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Proquro E-Procurement LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# RoadMaster LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Snagit LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Typo3 IDA LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# VerzuimXpert LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# WinCash LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# WinCash LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "# Zorg-Portaal ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "3Di Water Management LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "3Di Water Management LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "7-Zip LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "21QUBZ LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "A3 Digitaal LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AB Manufacturing Control LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ABSweb LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ABSweb OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Access 2010 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Accessibility Insights LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ActiveCampaign LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AD Explorer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe Acrobat Pro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe Acrobat Reader LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe Acrobat Standard DC LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe Creative Cloud LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe Illustrator LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe InDesign LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Adobe Photoshop LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AEC Collection OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AfvalRIS Basis LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AfvalRIS MCS LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AfvalRIS Reportviewer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Afvalwijzer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AfvalWijzer LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Afvalwijzer OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AgriLink Reader LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Alle Kinderen Doen Mee",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Allegro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Antwoord voor Bedrijven (en berichtenbox)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Apache Superset LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Aquaview LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Aquaview OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Aquaview ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ArcGIS Online ELO LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ArcGIS Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ArcGIS Pro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Archi LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Archie CRM LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Archiefweb.eu LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Archiefweb.eu LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Archiefweb.eu OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Archiefweb.eu ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ASAP Utilities LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Aspera Connect LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Assets & Treasury LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Assistance Online",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Atlantis Collectiebeheer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Atlantis Collectiebeheer OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Atlas LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Audacity ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoCAD Civil 3D LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoCAD Map 3D LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoCAD Map 3D LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoCAD Map 3D OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoCAD Map 3D ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoTURN LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "AutoTURN OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Avola Decision LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Azure API Management LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Azure Data Studio LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Azure Storage Explorer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "B&S Civiel LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "B&S VISI LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BarTender Print Station LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Base-Convert LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Basisbeeld LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Beaufort DZB LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Beaufort IDA LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Beheerportaal BRK-PB",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Beheervoorziening BSN (BV-BSN)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Belexpert LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BerekenUwRecht LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Besluit Ontheffingen Dienst",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Better File Rename LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Bijstandsdebiteuren IB LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BikeControl LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Bitstop LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BKR Toegangsportaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Blik Sensing LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Bluebeam PDF Revu LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Bluebeam PDF Revu LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Bluebeam PDF Revu OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Bluebeam PDF Revu ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BlueDolphin LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Book and Park LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Booktrack LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BOSdA LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRI - Basisregistratie Inkomen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Brickyard Backoffice LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Brightplan.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRISwarenhuis LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRK - Basisregistratie Kadaster",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRK-PB - Basisregistratie Kadaster Publiekrechtelijke Beperkingenbesluiten",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRO - Basisregistratie Ondergrond",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRT - Basisregistratie Topografie",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BrutIS LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BrutIS LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BrutIS OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BrutIS ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BRV - Basisregistratie Voertuigen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BVV Inkijkfunctie",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "BySpy Touch Registratie LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "C-Ware LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CadCorp SIS LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Calc4You OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Cale Weboffice LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Canva LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Canva Pro LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Capacito LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Capture One LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CardAccess ELO LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CardAccess IDA LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CardsOnline PRO LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CBS Open Data Statline",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Centrale Voorziening Geluid Gegevens (CVGG)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Centric Burgerzaken LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Centric Burgerzaken LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Centric Burgerzaken OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Centric Burgerzaken ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Certificering/PKI-overheid",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CEwall Archief LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Chatbot GEM LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Chrome LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CIS Suite LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Cisco Secure Endpoint LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CitizenLab LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CitizenLab OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Citrix Director LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CityControl LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CityControl OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CityControl ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CityPermit Backoffice LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CityPermit BezoekersApp LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CityPermit Digitaal loket LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CiVision Berichtenmodule LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CiVision Samenlevingszaken W&I LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CiVision Samenlevingszaken W&I LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CiVision Samenlevingszaken W&I OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CiVision Samenlevingszaken W&I ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Civision Samenlevingszaken Zorg LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Civision Samenlevingszaken Zorg LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Civision Samenlevingszaken Zorg OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Civision Samenlevingszaken Zorg ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CJIB",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Clappform LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ClaroRead Pro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Clickshare LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CLIQ",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Cocon LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Cognos LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Collegawijzer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Comfort Software Basic LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Compas LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Compas LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Compendia LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Console Pro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Coosto LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "COVOG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Crystal Reports LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Cubiks Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "CVDR Overheid",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "D-HYDRO Suite 1D2D LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DALI LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DALI OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DALI ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Data B LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Databoytool LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Databrush LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Debble Workplace LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Deister Commander LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Dezta Data Manager LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Dezta Plan LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "dg DIALOG BGT LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Diagnose & Matching LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DiaLOG LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DIALux Evo LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DICOS LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DigiD",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Digilevering",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DigiLOP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Digimelding",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Digipoort",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Digitaal Logboek LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DinoCapture LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DISCS LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Divosa Benchmark W&I",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DocLogic LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DocuDistri LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Dormakaba Exos LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Dragon Naturally Speaking LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DROP - Decentrale Regelgeving en Officiële Publicaties",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Drumis LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DSO-LV",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DuboCalc LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Duopp LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "DWG Trueview LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Dymo Label Software LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "E-herkenning voor bedrijven",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Easy Cash G LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Easyfunders LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eConnect LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken Module Inzicht LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken Module Inzicht LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken Module Inzicht OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "eDiensten Burgerzaken ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Elasticsearch LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Elasticsearch LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Engage Process Enterprise LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "EQili LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Eucaris",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "EvenementAssistent LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Evenementenbeheer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Exact Globe+ LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Excel 2016 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Exchange 2019 SE LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "EyeBase LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Facebook",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "FileZilla LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Firefox LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Fixi OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Flexscreen LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Flowmailer Go LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "FME Form LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "FormCycle LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Formdesk LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Foutenmeldpunt BSN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Fullhouse Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GBA-V (Verstrekkingsvoorziening)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Gehandicaptenparkeerkaart",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Gemal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GemCloud Regieboxx Digitale Deurmat CORV LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Gemeente op Afspraak ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "gemmaonline.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Gemraad.nl LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GeoServer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GeoSignum Pointer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GeoStart Programma Binnenstad LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GeoVisia Desktop LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GeoVisia Office Cloud LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GeoVisia Online Cloud LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GGK - Gemeentelijk Gegevensknooppunt",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GISkit PlanKaart LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Gladheid.nl OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GO WIBON LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Google Analytics LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Google Earth LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GovMetric CX LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GREX10 OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Grip op Participatiewet LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Grip op WMO LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GroupMessenger Gladheid.nl LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "GVOP - Gemeenschappelijke voorziening Officiële Publicaties",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Haal Centraal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "HACS LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Handboek Bomen LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Handboek Burgerzaken Amsterdam LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "HandDbase LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "HelloME LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "HMC Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "HR21 LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "HR - Handelsregister",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "i2 Analyst’s Notebook LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "i2 iBase LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "i-Marina Plus LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "i-Navigator LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "i-Navigator OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "i-Navigator ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "I-View LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "I/Net Seven LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IAM LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iBabs LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IBAK Reportviewer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IBAN-Naam Check LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IBANC LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IBM License Metric Tool LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ideoma Ligplaats LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IDHA-online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IKAS Evolution LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IKAS Report Viewer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iLOQ S5 Manager LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ImageCapture LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Impact Suite LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "In-Spect Dossier LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "In-Spect Herberekenen LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "In-Spect Signaal LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "INA-PFR LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "InfoRM LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "InfraCAD LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "InfraCAD Map LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ING InsideBusiness Payments LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ingenico Internetkassa LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Inkscape LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Innen eigen bijdrage Wmo en Wtcg (CAK)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Inspectieplanner LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "IntelliOps LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Internet Explorer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Intune LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Invoned",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Inzicht Sociaal Domein LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iParticipatie LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Irfanview LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iSamenleving LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iSamenleving OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iSpring Suite LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "iW Enterprise Management Console LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Jabra Direct LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Jaws LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JCC - Betalen LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JCC - Betalen OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JCC - Betalen ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Jewel Inzameling LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Klantcontact LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Klantcontact LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Klantcontact OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Klantcontact ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Now LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Search LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaak & Document LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaak & Document LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaak & Document OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaak & Document ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaaktypen LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaaktypen LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaaktypen OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JOIN Zaaktypen ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Joomla! LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "JUBES-component (voorheen CORV)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Juno 2 LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kadaster Online",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Berichtenmodule PIV LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Berichtenmodule PIV LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Berichtenmodule PIV OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Berichtenmodule PIV ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Betalen LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Burgerzaken LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Burgerzaken LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Burgerzaken OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Burgerzaken ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Datadistributie LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Datadistributie LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Datadistributie OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2Datadistributie ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2GBA-V LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2GBA-V LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2GBA-V OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2GBA-V ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2VOA LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2VOA LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2VOA OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Key2VOA ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "KeyTag Manager LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "KiC Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kikker LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kikker LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kikker OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kikker ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "KLIC service - Kabels en Leidingen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Klic-Viewer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "KLIC-WIBON LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "KNOOP - Gegevensknooppunt voor (Basis)registraties",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kofax Capture Enterprise LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kofax Transformation Modules LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kostendekkendheid.nl LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kostendekkendheid.nl LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kostendekkendheid.nl OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kostendekkendheid.nl ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "KvK Online",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kwaliteitscentrale LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Kwaliteitsmonitor BRP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LabelLite LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Laposta LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LaPosta OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LCMS",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Legal Intelligence LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Leiden.welstandinbeeld.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Lias Analytics LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Lias BUIG LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Lias INFO LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Lias PAUW LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Locatus LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Logilink Proxy LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Logilink Proxy LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Logilink Proxy OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Logilink Proxy ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Loket voortijdig schoolverlater (RMC)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LRKP - GIR LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LV-BAG - Basisregistratie Adressen en Gebouwen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LV-BGT - Basisregistratie Grootschalige Topografie",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LV-WOZ - Basisregistratie Waardering Onroerende Zaken",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "LVBB",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MagicInfo LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MailChimp LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Makelaarsuite LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MapGuide Maestro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mappi LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mappi OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MAPublisher LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MDU Client LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MDU Client LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MDU Client OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MDU Client ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Medipoint Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Melvin LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Memorix Maior E-Loket NOBS LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Memorix Maior E-Loket NOBS LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Memorix Nexus LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mendix LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mentimeter Pro LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mercell LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MetaCompliance eLearning LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MetroCount Traffic Executive LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Meyra Zorglogin Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Access LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Excel LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Excel LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Exchange Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - OneDrive LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - OneDrive LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - OneNote LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - OneNote LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Outlook LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Outlook LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Power BI LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Power BI LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - PowerPoint LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - PowerPoint LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Project LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Publisher LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Sharepoint Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Teams LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Teams LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Visio LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Word LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 - Word LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft 365 LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft Defender plus ATP LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft Powertoys LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Microsoft SQL Server Management Studio LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mijn Belastingdienst Zakelijk",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mijn BNG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mijn CAK Zakelijk (Extranet)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mijn PGB portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mijn Publicaties Portaal LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MijnGemeente App LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MijnGGN LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MijnOverheid Berichtenbox",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MijnOverheid Berichtenbox Leveranciersportaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MijnOverheid Lopende zaken",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MijnOverheid.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Milieuzone",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mitel Contact Center Client LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mitel Ignite LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Mitel MiCollab LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MO Zaak Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MobiMaestro-PAGE LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Module Autorisatiebeheer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Module Autorisatiebeheer LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Module Autorisatiebeheer OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Module Autorisatiebeheer ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Momice LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Monitoring Plus LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Monumentenregister",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MOON LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MOOR Platform LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Move3 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MplusKASSA LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "MSP360 Explorer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Multipress LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Naris LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Nationaal Parkeer Register LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Netwerkschijven LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Neuron BRK Monitor LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Neuron ESB HR Dataservice ++ LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Neuron ESB LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Neuron Gegevensmagazijn LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Neuron Stelsel Registratie BAG LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Neuron Stelsel Registratie Connector LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Newbies Pro LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Newwaste OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "NLCS Bibliotheek LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Notepad++ LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "NVDA LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "O-Prognose LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "O-Prognose LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OBI4wan ELO LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OBI4wan LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Octopus AWB LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OLO - OmgevingsLoket Online",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Omgeving Beheer ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ondernemersplein.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ondernemingsdossier",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OOV Alert",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Open Formulieren LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OpenRefine LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OpenTunnel LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OpenWOO.app LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OPP - Overheidspublicatie Platform",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oracle SQL Developer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oracle Wallet Manager LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oracle Workflow Builder LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Orchestra Enterprise LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oribi Id-Burger LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oribi Id-Burger LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oribi Id-Burger OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Oribi Id-Burger ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "OSV2020 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Otto LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Outlook 2010 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Overheid.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Overheidsservicebus.com LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PAL21 LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Pardon Salaris LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Park-Spot Reserveren LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Parkbase LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Parkeermonitor LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Parkeren Plus LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Password Safe LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Passwordstate LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PDFsam Basic LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PDOK - Publieke dienstverlening op de kaart",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Pentaho Data Integration LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PerfectView Fietsendepot LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PGAx LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "phpIPAM LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PIDmanager LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PIVA - Persoonsinformatie-voorziening Nederlandse Antillen en Aruba",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Planbord LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Planon LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Polisadministratie (doorontwikkeling naar BLAU opgeschort)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Polpo LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PolyDoc LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Powerall LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PowerBrowser LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PowerMobiel LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Preservica E-Depot LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Prezi LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PRISMAprepare LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Priva GBS monitoring LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Processen Verbaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Procura Verkiezingen LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Procura Verkiezingen OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Procura Verkiezingen ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Prognosemodel Gemeenten LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Project 2010 LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ProjectComfort LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PRTG Software LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "PRTG Software LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Publieke Informatie Makelaar",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Publiosa LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Purfaction Spendanalyse LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Q3 Onderhoudsbeheersysteem LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Qgis LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Qonline LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Qualigraf LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Qualigraf LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Qualigraf OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Qualigraf ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Quentic LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RAAS Aanvraagstation LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RAAS Aanvraagstation LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RAAS Aanvraagstation OEG",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RAAS Aanvraagstation ZTW",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Rada Outlook LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RAP HRM LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RAP Medewerkers LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Rapasso LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RDCMan LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ReadSpeaker OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Rechtsorde LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ReCreaTeX LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Regeldienst Vragenbomen LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Regelhulp.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Register Externe Veiligheid (REV)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Remote Beheer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Report Builder LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Repro Desk Studio LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ricoh Theta Viewer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RIS LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Risicokaart.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Risicoregister gevaarlijke stoffen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RNI - Registratie Niet Ingezetenen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Roosterplanning LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RStudio Desktop LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ruimtelijke plannen",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "RVV LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Rx.Base LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Salto ProAccess Space LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Samenwerkende Catalogi verwijsregister",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SAP S/4HANA LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Schuldenknooppunt",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SelfGuide LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SEM Portfoliomanagement LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SEP E-Learning Verkiezingen LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ServiceNow",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Shiftbase LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sidcon Perscontainers LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Signaalpunt Tegen eenzaamheid LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Signalen LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Signalen LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Signalen ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Signicat eHerkenningsmakelaar LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SketchUp Pro LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Slack LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sleutelpas LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Smart CX LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Smart CX OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sobek Suite LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sociale Verzekeringsbank portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Softwarecatalogus.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SoleilView LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sparkleflow",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sparx Enterprise Architect LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Spatial Tool LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Speakap LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sportpas.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SPSS GBA Statistiek LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SPSS LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SQL Plus LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SQL Tools LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SQLite Expert LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Startpunt Geldzaken LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Stembureaumanager LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Stembureaumanager LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Stichting Netwerk Gerechtsdeurwaarders",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "STIHL Diagnostic Software LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Street Smart LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Strodio LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Studytube Leerplatform LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Sumatra LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SuperNova LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Survalyzer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SurveyMonkey LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Suwinet Inburgeringsportaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Suwinet Inkijk (DKD)",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SVB PGB Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SVB Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SVB-BGT services en portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Swing Mosaic LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Swing Mosaic LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "SynergieNL LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Tabula LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TAC I/NET Notifier LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Tangelo LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TeamViewer Tensor LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Technosoft Rekensoftware LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Telecontrol GBS LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Templafy LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Tenderbot LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TenderNed",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Tesorion MDR LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Testersuite Premium LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Text on Tap LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Textmetrics LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Textmetrics LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "The Museum System LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TIM Enterprise LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TMV - GBA Terugmeldvoorziening",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TOPdesk LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Total Commander LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TotalLink LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Track & Trace LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Track & Trace LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Traka LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Travelcard LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Trello LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Trimble Access LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TrustLink Enterprise LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "TVS-COA LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Twitter",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Typo3 LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Typo3 OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Typo3 ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ubeeo ATS LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "UiPath RPA LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "UitvaartSuite",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Ultimate Screen Access LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "uniFLOW LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "uniFLOW Online LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "uniFLOW Online LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Universal Viewer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Uniwin LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "UWV Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ValidSign LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Vastgoed Leiden LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VBS Online OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VConsyst Dynamics LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "vdPCADdesign LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Verloren of Gevonden LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Verloren of Gevonden LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Verloren of Gevonden OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Verloren of Gevonden ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Verwijsindex Jeugd LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIA Signaal Ongevallen LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIA Statistiek LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ViA Statistiek LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ViewAll LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIND Burgerzaken LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIND Burgerzaken OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIND Informatiemanagement LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIND Informatiemanagement OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VIND Informatiemanagement ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Vindsubsidies LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VISH",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Vissim LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VLC Media Player LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VNK Statica LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "VTLB Calculator LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Waarstaatjegemeente.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Wasys LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WCare Productencatalogus LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Webeasy Klimaat LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Webportaal Schulddienstverlening LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Wecycle",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Welvaarts LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Welzorg WMO Portaal",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Werk.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Werkgeversinstrumentgids",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Werkstap LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Werktools - Toezichthoudersapp LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Werkzoekendeninstrumentgids",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WhatsApp LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WiBu Codemeter LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WinSCP LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WISeDocs LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Wish LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WIZZR LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Wkpb landelijke registratie",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WMO Monitor CAK LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WMO Monitor CAK OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WooPortaal LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "WordPress OWC LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Workspace Control LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "XDM LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "XDM LDP",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "XDM OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "XDM ZTW",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Xsitu LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Anonimiseren LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Bevolkingsprognose LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Formulieren LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Leerlingbegeleiding LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Leerlingenvervoer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Omgevingsdocumenten LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Onderwijsloket LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Onderwijsloket OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Toepasbare regels LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Vroegsignalering LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "xxllnc Vroegsignalering OEG",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Yammer LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "YAVC LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Youforce DZB LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "YouForce IDA LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Zebra Designer LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Zepcam Connect LDN",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Zero Emissieloket LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Zivver Office Plugin LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "zoek.openraadsinformatie.nl",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ZooEasy LDP",
+      "loc": "On-premise",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Zorg & Zekerheid Zakelijk",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "Zorgdomein",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    },
+    {
+      "app": "ZyLAB One eDiscovery LDN",
+      "loc": "Cloud",
+      "rel": "heeft toekenning van"
+    }
+  ],
+  "withoutLoc": [
+    "Active Directory",
+    "Peutermonitor LDN",
+    "Waste Vision LDP"
+  ],
+  "timestamp": "2026-03-09T18:14:33.198Z"
+}
