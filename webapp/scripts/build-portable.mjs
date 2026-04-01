@@ -179,7 +179,7 @@ Write-Host ""
 console.log('5. Creating portable entry point...');
 writeFileSync(resolve(DIST, 'app.mjs'), `
 import { createServer } from 'node:http';
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile as writeFileFs, mkdir } from 'node:fs/promises';
 import { resolve, extname, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawn, execFile } from 'node:child_process';
@@ -191,7 +191,10 @@ import { z } from 'zod';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const UI_DIR = resolve(__dir, 'ui');
+const UPLOAD_DIR = resolve(__dir, 'uploads');
 const PORT = parseInt(process.env.PORT || '8080', 10);
+const MAX_UPLOAD = 20 * 1024 * 1024;
+const ALLOWED_EXT = new Set(['.pdf','.png','.jpg','.jpeg','.webp','.xlsx','.xls','.csv','.pptx','.ppt','.doc','.docx','.txt']);
 
 // --- Logger ---
 function log(level, data) {
@@ -285,6 +288,57 @@ function generatePdf(memo) {
   });
 }
 
+// --- Upload Handler ---
+function readReqBody(req, max) {
+  return new Promise((res) => {
+    const chunks = []; let size = 0;
+    req.on('data', (c) => { size += c.length; if (size > max) { req.destroy(); res(null); return; } chunks.push(c); });
+    req.on('end', () => res(Buffer.concat(chunks)));
+    req.on('error', () => res(null));
+  });
+}
+
+function parseMultipart(body, boundary) {
+  const parts = body.toString('latin1').split('--' + boundary);
+  for (const part of parts) {
+    if (part.includes('filename="')) {
+      const fm = part.match(/filename="([^"]+)"/);
+      const cm = part.match(/Content-Type:\\s*(.+)\\r?\\n/i);
+      const he = part.indexOf('\\r\\n\\r\\n');
+      if (fm && he !== -1) {
+        let de = part.length;
+        if (part.endsWith('\\r\\n')) de -= 2;
+        else if (part.endsWith('\\r\\n--')) de -= 4;
+        return { filename: fm[1], contentType: cm ? cm[1].trim() : 'application/octet-stream', data: Buffer.from(part.slice(he + 4, de), 'latin1') };
+      }
+    }
+  }
+  return null;
+}
+
+const uploadedFiles = new Map();
+
+async function handleUpload(req, res) {
+  const ct = req.headers['content-type'] || '';
+  if (!ct.includes('multipart/form-data')) { res.writeHead(400); res.end('{"error":"Expected multipart/form-data"}'); return; }
+  const boundary = ct.split('boundary=')[1];
+  if (!boundary) { res.writeHead(400); res.end('{"error":"Missing boundary"}'); return; }
+  const body = await readReqBody(req, MAX_UPLOAD);
+  if (!body) { res.writeHead(413); res.end('{"error":"File too large (max 20MB)"}'); return; }
+  const file = parseMultipart(body, boundary);
+  if (!file) { res.writeHead(400); res.end('{"error":"Could not parse file"}'); return; }
+  const ext = extname(file.filename).toLowerCase();
+  if (!ALLOWED_EXT.has(ext)) { res.writeHead(400); res.end(JSON.stringify({ error: 'File type ' + ext + ' not supported' })); return; }
+  const safeName = file.filename.replace(/[^a-zA-Z0-9._-]/g, '_');
+  await mkdir(UPLOAD_DIR, { recursive: true });
+  const id = randomUUID();
+  await writeFileFs(resolve(UPLOAD_DIR, id + ext), file.data);
+  uploadedFiles.set(id, { path: resolve(UPLOAD_DIR, id + ext), name: safeName });
+  log('info', { event: 'file_uploaded', id, name: safeName, size: file.data.length });
+  res.writeHead(200, { 'Content-Type': 'application/json' });
+  res.end(JSON.stringify({ id, name: safeName, size: file.data.length }));
+}
+
 // --- Static File Server ---
 const MIME = { '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css', '.json': 'application/json' };
 
@@ -301,6 +355,12 @@ const server = createServer(async (req, res) => {
   // Health
   if (req.url === '/healthz') { res.writeHead(200, { 'Content-Type': 'application/json' }); res.end('{"status":"alive"}'); return; }
   if (req.url === '/api/v1/status') { res.writeHead(200, { 'Content-Type': 'application/json' }); res.end(JSON.stringify(await checkCli())); return; }
+
+  // Upload
+  if (req.url === '/api/v1/upload' && req.method === 'POST') {
+    try { await handleUpload(req, res); } catch (e) { log('error', { event: 'upload_failed', error: String(e) }); res.writeHead(500); res.end('{"error":"Upload failed"}'); }
+    return;
+  }
 
   // PDF
   if (req.url === '/api/v1/memo/pdf' && req.method === 'POST') {
