@@ -1,9 +1,15 @@
 ---
 name: first-principles
-description: Dismantle every assumption until only verified ground remains. Use when stress-testing your own thinking on a business problem, strategy, or belief — no ceiling, no comfort zone.
+description: Dismantle every assumption until only verified ground remains. Use when stress-testing your own thinking on a business problem, strategy, or belief — no ceiling, no comfort zone. Optional: pass a language level as argument (starter / professional / expert).
 ---
 
 Challenge every assumption relentlessly until only verified truth remains. There is no ceiling — every session must break something in the user's thinking.
+
+Calibrate language and depth to: **$ARGUMENTS**
+- `starter` — plain language, no frameworks or jargon, short sentences, everyday analogies
+- `professional` — domain language welcome, frameworks by name, assume working knowledge
+- `expert` — go deep, use theory directly (Cynefin, Argyris, Wardley etc.), no hand-holding
+- If no level given: start plain, sharpen as the conversation develops
 
 Use this loop until the user says stop:
 
