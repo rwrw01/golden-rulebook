@@ -5,7 +5,8 @@
   "license": "EUPL-1.2",
   "scripts": {
     "dev": "tsx src/server.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:portable": "node scripts/build-portable.mjs"
   },
   "dependencies": {
     "pdfkit": "0.16.0",
@@ -16,6 +17,7 @@
     "@types/node": "22.15.18",
     "@types/pdfkit": "0.13.9",
     "@types/ws": "8.18.1",
+    "esbuild": "^0.27.4",
     "tsx": "4.19.4",
     "typescript": "5.8.3"
   }
