@@ -1,10 +1,16 @@
-/* global WebSocket */
+/* global WebSocket, SpeechRecognition, webkitSpeechRecognition */
 const $ = (id) => document.getElementById(id);
 
 let ws = null;
 let sessionId = null;
 let selectedMode = 'masterclass';
 let currentAssistantMsg = null;
+let uploadedFiles = [];
+let recognition = null;
+let isRecording = false;
+let sttEnabled = false;
+
+// --- Status Check ---
 
 async function checkStatus() {
   const dot = $('status-dot');
@@ -42,17 +48,153 @@ async function checkStatus() {
     text.textContent = `Ready (${status.version || 'unknown'})`;
     setup.style.display = 'none';
     start.style.display = 'block';
+    initStt();
   } catch {
     dot.className = 'status-dot err';
     text.textContent = 'Server unreachable';
   }
 }
 
+// --- Mode Selection ---
+
 function selectMode(btn) {
   document.querySelectorAll('.mode-btn').forEach((b) => b.classList.remove('active'));
   btn.classList.add('active');
   selectedMode = btn.dataset.mode;
 }
+
+// --- File Upload ---
+
+async function handleFiles(fileList) {
+  for (const file of fileList) {
+    if (file.size > 20 * 1024 * 1024) {
+      alert(`${file.name} is too large (max 20 MB)`);
+      continue;
+    }
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const res = await fetch('/api/v1/upload', { method: 'POST', body: formData });
+      const result = await res.json();
+
+      if (!res.ok) {
+        alert(result.error || 'Upload failed');
+        continue;
+      }
+
+      uploadedFiles.push({ id: result.id, name: result.name, size: result.size });
+      renderFileList();
+    } catch {
+      alert(`Failed to upload ${file.name}`);
+    }
+  }
+  $('file-input').value = '';
+}
+
+function removeFile(index) {
+  uploadedFiles.splice(index, 1);
+  renderFileList();
+}
+
+function renderFileList() {
+  const container = $('file-list');
+  container.innerHTML = '';
+  uploadedFiles.forEach((f, i) => {
+    const div = document.createElement('div');
+    div.className = 'file-item';
+    const sizeKb = Math.round(f.size / 1024);
+    div.innerHTML = `<span class="name">${esc(f.name)}</span><span class="size">${sizeKb} KB</span>`;
+    const btn = document.createElement('button');
+    btn.className = 'remove';
+    btn.textContent = '\u00d7';
+    btn.onclick = () => removeFile(i);
+    div.appendChild(btn);
+    container.appendChild(div);
+  });
+}
+
+function esc(str) {
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+// --- Voice / STT ---
+
+function initStt() {
+  const SpeechAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechAPI) return;
+
+  $('stt-toggle').style.display = 'flex';
+
+  recognition = new SpeechAPI();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+
+  recognition.onresult = (event) => {
+    let transcript = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      transcript += event.results[i][0].transcript;
+    }
+    const input = $('chat-input');
+    if (input && transcript) {
+      input.value = transcript;
+    }
+  };
+
+  recognition.onend = () => {
+    if (isRecording) {
+      try { recognition.start(); } catch { /* already started */ }
+    }
+  };
+
+  recognition.onerror = (event) => {
+    if (event.error !== 'no-speech' && event.error !== 'aborted') {
+      console.error('STT error:', event.error);
+      stopRecording();
+    }
+  };
+}
+
+function toggleStt(enabled) {
+  sttEnabled = enabled;
+  const micBtn = $('mic-btn');
+  if (micBtn) {
+    micBtn.style.display = enabled ? 'block' : 'none';
+  }
+  if (!enabled && isRecording) {
+    stopRecording();
+  }
+}
+
+function toggleRecording() {
+  if (!recognition || !sttEnabled) return;
+  if (isRecording) {
+    stopRecording();
+  } else {
+    startRecording();
+  }
+}
+
+function startRecording() {
+  if (!recognition) return;
+  try {
+    recognition.start();
+    isRecording = true;
+    $('mic-btn').classList.add('recording');
+  } catch { /* already started */ }
+}
+
+function stopRecording() {
+  if (!recognition) return;
+  isRecording = false;
+  recognition.stop();
+  $('mic-btn').classList.remove('recording');
+}
+
+// --- Chat Messages ---
 
 function addMessage(text, role) {
   const container = $('messages');
@@ -63,6 +205,8 @@ function addMessage(text, role) {
   container.scrollTop = container.scrollHeight;
   return div;
 }
+
+// --- WebSocket ---
 
 function connectWebSocket() {
   const protocol = location.protocol === 'https:' ? 'wss' : 'ws';
@@ -85,24 +229,18 @@ function connectWebSocket() {
 
 function handleServerMessage(msg) {
   if (msg.type === 'status') {
-    if (msg.status === 'spawning') {
-      addMessage('Starting evaluation session...', 'system');
-    }
+    if (msg.status === 'spawning') addMessage('Starting evaluation session...', 'system');
     if (msg.status === 'ready') {
       sessionId = msg.detail;
       $('send-btn').disabled = false;
       $('chat-input').focus();
     }
-    if (msg.status === 'error') {
-      addMessage(`Error: ${msg.detail || 'Unknown error'}`, 'system');
-    }
+    if (msg.status === 'error') addMessage(`Error: ${msg.detail || 'Unknown error'}`, 'system');
     return;
   }
 
   if (msg.type === 'chunk') {
-    if (!currentAssistantMsg) {
-      currentAssistantMsg = addMessage('', 'assistant');
-    }
+    if (!currentAssistantMsg) currentAssistantMsg = addMessage('', 'assistant');
     currentAssistantMsg.textContent += msg.text;
     $('messages').scrollTop = $('messages').scrollHeight;
     return;
@@ -118,22 +256,24 @@ function handleServerMessage(msg) {
     addMessage('Session ended.', 'system');
     $('send-btn').disabled = true;
     $('chat-input').disabled = true;
-    if (msg.memoAvailable) {
-      $('pdf-bar').style.display = 'block';
-    }
+    if (isRecording) stopRecording();
+    if (msg.memoAvailable) $('pdf-bar').style.display = 'block';
     return;
   }
 
-  if (msg.type === 'error') {
-    addMessage(`Error: ${msg.message}`, 'system');
-  }
+  if (msg.type === 'error') addMessage(`Error: ${msg.message}`, 'system');
 }
+
+// --- Session ---
 
 function startSession() {
   const pitch = $('pitch-input').value.trim();
-  if (!pitch) {
-    $('pitch-input').focus();
-    return;
+  if (!pitch) { $('pitch-input').focus(); return; }
+
+  let fullPitch = pitch;
+  if (uploadedFiles.length > 0) {
+    const fileNames = uploadedFiles.map((f) => f.name).join(', ');
+    fullPitch += `\n\n[Attached files: ${fileNames}]`;
   }
 
   $('start-panel').style.display = 'none';
@@ -141,12 +281,15 @@ function startSession() {
   $('send-btn').disabled = true;
 
   addMessage(pitch, 'user');
+  if (uploadedFiles.length > 0) {
+    addMessage(`${uploadedFiles.length} file(s) attached.`, 'system');
+  }
   connectWebSocket();
 
   const waitForOpen = setInterval(() => {
     if (ws && ws.readyState === WebSocket.OPEN) {
       clearInterval(waitForOpen);
-      ws.send(JSON.stringify({ type: 'start', mode: selectedMode, pitch }));
+      ws.send(JSON.stringify({ type: 'start', mode: selectedMode, pitch: fullPitch }));
     }
   }, 100);
 }
@@ -161,6 +304,8 @@ function sendMessage() {
   input.value = '';
   input.focus();
 }
+
+// --- PDF ---
 
 async function downloadPdf() {
   if (!sessionId) return;
@@ -190,4 +335,5 @@ async function downloadPdf() {
   }
 }
 
+// --- Init ---
 checkStatus();

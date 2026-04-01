@@ -5,6 +5,7 @@ import { env } from './lib/env.ts';
 import { logger } from './lib/logger.ts';
 import { handleHealthRoutes } from './integration/health-routes.ts';
 import { handlePdfRoutes } from './integration/pdf-routes.ts';
+import { handleUploadRoutes } from './integration/upload-routes.ts';
 import { attachWebSocket } from './integration/ws-handler.ts';
 import { drainAll } from './process/session-manager.ts';
 
@@ -42,6 +43,7 @@ async function serveStatic(req: IncomingMessage, res: ServerResponse): Promise<b
 async function handleRequest(req: IncomingMessage, res: ServerResponse): Promise<void> {
   if (await handleHealthRoutes(req, res)) return;
   if (await handlePdfRoutes(req, res)) return;
+  if (await handleUploadRoutes(req, res)) return;
   if (await serveStatic(req, res)) return;
 
   res.writeHead(404, { 'Content-Type': 'application/json' });
