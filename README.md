@@ -28,6 +28,15 @@ On-demand audit and review skills — the **detection layer**. All prefixed `rwr
 | `rwrw01-documentation` | Generate user & admin documentation (Dutch) |
 | `rwrw01-refactoring` | Split large files into logical modules |
 
+### General skills (`skills/`)
+Consulting and thinking skills — the **advisory layer**.
+
+| Skill | Purpose |
+|-------|---------|
+| `first-principles` | Dismantle assumptions until only verified ground remains |
+| `war-room` | Structured sensemaking session to reach a decision-ready outcome |
+| `angel-investor-pitch-evaluator` | Evaluate a startup pitch and produce an angel investor memo with go/no-go recommendation |
+
 ## Usage
 
 ### Install rules globally
