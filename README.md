@@ -35,7 +35,7 @@ Consulting and thinking skills — the **advisory layer**.
 |-------|---------|
 | `first-principles` | Dismantle assumptions until only verified ground remains |
 | `war-room` | Structured sensemaking session to reach a decision-ready outcome |
-| `angel-investor-pitch-evaluator` | Evaluate a startup pitch and produce an angel investor memo with go/no-go recommendation |
+| `angel-investor-pitch-evaluator` | Ruthless pitch evaluation through dynamic tree exploration with three modes (sparring/coaching/masterclass) |
 
 ## Usage
 
