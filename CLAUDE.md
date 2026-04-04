@@ -1,9 +1,9 @@
 # CLAUDE.md — BlueDolphin Skills Catalog
 
 ## Project
-Reusable audit and review skills catalog for M&I Partners projects.
-Serves: iProva, Orbit, BlueDolphin, and future projects.
-All skills prefixed `rwrw01-` for easy identification.
+Reusable coding standards, architecture rules, audit skills, and thinking tools for professional software projects.
+Originally developed for M&I Partners (iProva, Orbit, BlueDolphin), but broadly applicable.
+All audit skills prefixed `rwrw01-` for easy identification.
 
 ## Language
 - Communication and reports: Dutch
