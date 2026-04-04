@@ -1,6 +1,6 @@
 # Golden Rulebook
 
-Coding standards, architecture rules, and audit skills for Dutch government (Common Ground) projects.
+Coding standards, architecture rules, and audit skills for professional software projects. Originally rooted in Dutch government (Common Ground) architecture, but applicable to any organization that values layered architecture, API-first design, and security by default.
 
 ## What's inside
 
@@ -9,8 +9,8 @@ Always-active coding standards — the **prevention layer**.
 
 | Rule | Domain |
 |------|--------|
-| `01-architecture.md` | Common Ground 5-layer separation, API-first, NL API Strategy |
-| `02-portability.md` | Docker, 12-factor app, Haven compliance, graceful shutdown |
+| `01-architecture.md` | 5-layer separation, API-first design, REST best practices |
+| `02-portability.md` | Docker, 12-factor app, Kubernetes best practices, graceful shutdown |
 | `03-code-organization.md` | TypeScript strict, ESM, file limits, naming, error handling |
 | `04-security-coding.md` | Input validation, OIDC auth, secrets, output encoding, OpenTelemetry |
 | `05-quality-gates.md` | Test coverage targets, code review checklist, performance baselines |

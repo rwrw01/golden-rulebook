@@ -39,13 +39,16 @@ process.on('SIGTERM', async () => {
 - `GET /healthz` — liveness: 200 if process alive. No dependency checks.
 - `GET /readyz` — readiness: 200 only when DB/cache reachable.
 
-## Haven compliance (active standard, VNG 2019-2026)
-
-Haven is the Dutch government standard for platform-independent Kubernetes hosting.
-Compliance means workloads can migrate between any Haven cluster without modification.
+## Kubernetes best practices
 
 - Helm chart in `deploy/helm/`. No `hostPath`, `privileged`, `hostNetwork`.
 - Resource limits REQUIRED: `limits.memory` + `limits.cpu`.
 - `NetworkPolicy` default-deny ingress, explicit allow per service.
+
+### Haven compliance (Dutch government projects only)
+
+Haven is the Dutch government standard for platform-independent Kubernetes hosting.
+When targeting Dutch government infrastructure:
+
 - Run Haven Compliancy Checker (`haven check`) to validate cluster compliance.
 - Common Ground applications MUST be Haven-compatible.
