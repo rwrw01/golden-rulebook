@@ -42,4 +42,4 @@ Before reporting a feature as complete, verify ALL:
 - DB queries: no N+1. `EXPLAIN` on new queries with joins.
 - Docker image: <150MB for interpreted runtimes, <100MB for compiled
 - Container startup: <5s to healthy
-- Haven Compliancy Checker: pass all checks before deployment
+- Haven Compliancy Checker: pass all checks before deployment (Dutch government projects only)
